@@ -58,17 +58,29 @@ div.reason {
   border: .5px solid white;
 }
 
-.featured {
-  p {
-    margin-bottom: 0px;
-  }
-}
-
-.org_name {
+.landing-campaign{
+  .org_name {
   font-family: $main-font;
   font-weight: 400;
   font-size: 14pt;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  }
+  p {
+  margin-bottom: 0px;
+  }
+  img {
+    margin-bottom: 10px;
+  }
+  .camp-title {
+    font-family: $main-font;    
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
 }
+
+
 
 h2 {
   .benefits & {
@@ -89,3 +101,23 @@ h4 {
     margin-top: 20px;
   }
 }
+
+.featured{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#footer-logo {
+  margin-top: 20px;
+}
+
+.footer {
+  .row {
+    margin-top: 20px;
+    ul{
+      li{
+        list-style-type: none;
+      }
+    }
+    }
+  }

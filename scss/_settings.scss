@@ -96,7 +96,7 @@ $font-family-serif: "Abril Text", Georgia, Cambria, "Times New Roman", Times, se
 // $font-weight-bold: bold;
 
 $white       : #FFFFFF;
-
+$gray: #D8D8D8;
 // $ghost       : #FAFAFA;
 // $snow        : #F9F9F9;
 // $vapor       : #F6F6F6;
@@ -125,7 +125,8 @@ $secondary-color: $brand-blue;
 $copy-font: "Abril Text", serif;
 $main-font: "Gibson";
 $light-green: #87D37C;
-// $alert-color: #f04124;
+
+$alert-color: $brand-blue;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
@@ -655,14 +656,14 @@ $light-green: #87D37C;
 // $form-label-bottom-margin: 0;
 // $input-font-family: inherit;
 // $input-font-color: rgba(0,0,0,0.75);
-// $input-font-size: rem-calc(14);
+$input-font-size: rem-calc(14);
 // $input-placeholder-font-color: #cccccc;
-// $input-bg-color: $white;
+$input-bg-color: $gray;
 // $input-focus-bg-color: scale-color($white, $lightness: -2%);
 // $input-border-color: scale-color($white, $lightness: -20%);
 // $input-focus-border-color: scale-color($white, $lightness: -40%);
 // $input-border-style: solid;
-// $input-border-width: 1px;
+$input-border-width: .5px;
 // $input-border-radius: $global-radius;
 // $input-disabled-bg: $gainsboro;
 // $input-disabled-cursor: $cursor-default-value;
@@ -1005,7 +1006,7 @@ $light-green: #87D37C;
 // $panel-border-color: scale-color($panel-bg, $lightness: -11%);
 
 // We use these to set default inner padding and bottom margin
-// $panel-margin-bottom: rem-calc(20);
+$panel-margin-bottom: 0px;
 // $panel-padding: rem-calc(20);
 
 // We use these to set default font colors
@@ -1422,16 +1423,16 @@ $topbar-height: rem-calc(50);
 // $topbar-title-font-size: rem-calc(17);
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: $white;
-$topbar-link-color-hover: $brand-green;
-// $topbar-link-color-active: $white;
-// $topbar-link-color-active-hover: $white;
+$topbar-link-color: $brand-green;
+$topbar-link-color-hover: $white;
+$topbar-link-color-active: $white;
+$topbar-link-color-active-hover: $white;
 // $topbar-link-weight: $font-weight-normal;
 // $topbar-link-font-size: rem-calc(13);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 $topbar-link-bg: $topbar-bg;
-// $topbar-link-bg-hover: $jet;
-// $topbar-link-bg-color-hover: $charcoal;
+$topbar-link-bg-hover: $brand-green;
+$topbar-link-bg-color-hover: $brand-green;
 // $topbar-link-bg-active: $primary-color;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
 // $topbar-link-font-family: $body-font-family;
