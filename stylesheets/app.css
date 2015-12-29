@@ -9747,27 +9747,69 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 16, ../scss/_overrides.scss */
+.hero {
+  background: url("../img/landing_hero.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 450px;
+  color: white;
+}
+/* line 24, ../scss/_overrides.scss */
+.hero h1 {
+  color: white;
+}
+
+/* line 29, ../scss/_overrides.scss */
+.impact {
+  background: url("../img/impact_image.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 450px;
+  color: white;
+}
+/* line 37, ../scss/_overrides.scss */
+.impact h2 {
+  color: white;
+}
+
+/* line 43, ../scss/_overrides.scss */
 p {
   font-family: "Abril Text", serif;
 }
 
-/* line 20, ../scss/_overrides.scss */
+/* line 47, ../scss/_overrides.scss */
 .benefits {
   background-color: #40A9DF;
 }
-/* line 22, ../scss/_overrides.scss */
+/* line 49, ../scss/_overrides.scss */
 .benefits p {
   color: white;
 }
 
-/* line 27, ../scss/_overrides.scss */
+/* line 54, ../scss/_overrides.scss */
 .org_name {
   font-family: "Gibson";
   font-weight: 400;
   font-size: 14pt;
 }
 
-/* line 34, ../scss/_overrides.scss */
+/* line 61, ../scss/_overrides.scss */
 .benefits h2 {
   color: white;
+}
+
+/* line 67, ../scss/_overrides.scss */
+.benefits h4 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* line 74, ../scss/_overrides.scss */
+.benefits img {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }

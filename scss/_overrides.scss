@@ -13,6 +13,33 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
+.hero { 
+    background: url("../img/landing_hero.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    color: white;
+    h1 {
+      color: white;
+    }
+}
+
+.impact { 
+    background: url("../img/impact_image.png") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    color: white;
+    h2 {
+      color: white;
+    }
+}
+
+
 p {
   font-family: $copy-font;
 }
@@ -33,5 +60,19 @@ p {
 h2 {
   .benefits & {
     color: white;
+  }
+}
+
+h4 {
+  .benefits & {
+    color: white;
+    margin-bottom: 20px;
+  }
+}
+
+.benefits {
+  img {
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
