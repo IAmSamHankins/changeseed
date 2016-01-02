@@ -10004,3 +10004,8 @@ div.selection-box {
 .org-side-bar {
   background-color: #FDFFD7;
 }
+
+/* line 187, ../scss/_overrides.scss */
+div.seed-donation-side {
+  border: .5px solid black;
+}
