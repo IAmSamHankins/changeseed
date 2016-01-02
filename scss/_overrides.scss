@@ -1,3 +1,5 @@
+
+
 .highlight-box {
  // height: 70px;
   background-color: $light-green;
@@ -7,32 +9,10 @@
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
-
-.hero { 
-    background: url("../img/landing_hero.jpg") no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 450px;
-    color: white;
-    h1 {
-      color: white;
-      vertical-align: middle;
-    }
-}
-
-.impact { 
-    background: url("../img/impact_image.png") no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 450px;
-    color: white;
-    h2 {
-      color: white;
-    }
+.top-bar{
+  img{
+    margin-right: 10px;
+  }
 }
 
 .top-bar {
@@ -47,64 +27,112 @@ p {
   font-size: 12pt;
 }
 
-.benefits {
-  background-color: $brand-blue;
+.required {
+    border-left: 5px solid $brand-green;
+  }
+
+#sign-in-modal, #sign-up-modal {
   p {
-    color: white;
+    font-family: $main-font;
   }
 }
 
-div.reason {
-  border: .5px solid white;
+.hero { 
+    background: url("../img/landing_hero.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0px 0px;
+    padding-top: 200px;
+    height: 450px;
+    color: white;
+    h1 {
+      color: white;
+      vertical-align: middle;
+    }
 }
 
 .landing-campaign{
+  h1, h2, h3, h4, h5 {
+    margin: 0px;
+    font-family: $main-font;
+  }
   .org_name {
-  font-family: $main-font;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 14pt;
   line-height: 1.2;
   margin-bottom: 5px;
   }
   p {
   margin-bottom: 0px;
+  font-family: $main-font;
   }
   img {
     margin-bottom: 10px;
   }
   .camp-title {
-    font-family: $main-font;    
     font-weight: 600;
+    font-size: 14pt;
     line-height: 1.2;
     margin-bottom: 10px;
   }
-}
-
-
-
-h2 {
-  .benefits & {
-    color: white;
+  .highlight-head {
+    font-weight: 600;
   }
-}
-
-h4 {
-  .benefits & {
-    color: white;
-    margin-bottom: 20px;
+  .highlight-unit {
+    font-weight: 400;
   }
-}
-
-.benefits {
-  img {
-    margin-bottom: 20px;
-    margin-top: 20px;
+  h5 {
+    margin-top: 10px;
+    font-weight: 200;
+  }
+  .progress {
+    margin-bottom: 5px;
   }
 }
 
 .featured{
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+div.reason {
+  border: .5px solid white;
+}
+
+.benefits {
+ margin-top: 20px;
+  background-color: #40A9DF;
+ 
+  p {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+  h4 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+.impact { 
+    padding-top: 40px;
+    background: url("../img/impact_image.png") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    color: white;
+    h2 {
+      color: white;
+    }
 }
 
 #footer-logo {

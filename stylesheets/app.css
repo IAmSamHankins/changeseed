@@ -1,3 +1,68 @@
+/* line 5, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
 /* line 431, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.3/";
@@ -79,7 +144,7 @@ html, body {
 /* line 498, ../bower_components/foundation/scss/foundation/components/_global.scss */
 html,
 body {
-  font-size: 100%;
+  font-size: 16px;
 }
 
 /* line 502, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -90,7 +155,7 @@ body {
   font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 24px;
   margin: 0;
   padding: 0;
   position: relative;
@@ -2418,7 +2483,7 @@ button, .button {
   border-width: 0;
   cursor: pointer;
   font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   line-height: normal;
   margin: 0 0 1.25rem;
   position: relative;
@@ -5764,9 +5829,9 @@ ul.pagination li {
 /* Progress Bar */
 /* line 59, ../bower_components/foundation/scss/foundation/components/_progress-bars.scss */
 .progress {
-  background-color: #F6F6F6;
+  background-color: #D8D8D8;
   border: 1px solid white;
-  height: 1.5625rem;
+  height: 2.1875rem;
   margin-bottom: 0.625rem;
   padding: 0.125rem;
 }
@@ -5780,7 +5845,7 @@ ul.pagination li {
 }
 /* line 66, ../bower_components/foundation/scss/foundation/components/_progress-bars.scss */
 .progress .meter.secondary {
-  background: #40A9DF;
+  background: #3EB449;
   display: block;
   height: 100%;
   float: left;
@@ -5804,7 +5869,7 @@ ul.pagination li {
 }
 /* line 70, ../bower_components/foundation/scss/foundation/components/_progress-bars.scss */
 .progress.secondary .meter {
-  background: #40A9DF;
+  background: #3EB449;
   display: block;
   height: 100%;
   float: left;
@@ -6008,9 +6073,9 @@ ul.pagination li {
   .reveal-modal {
     left: 0;
     margin: 0 auto;
-    max-width: 62.5rem;
+    max-width: 50%;
     right: 0;
-    width: 80%;
+    width: 50%;
   }
 }
 @media only screen and (min-width: 40.0625em) {
@@ -6039,7 +6104,7 @@ ul.pagination li {
   .reveal-modal.tiny {
     left: 0;
     margin: 0 auto;
-    max-width: 62.5rem;
+    max-width: 50%;
     right: 0;
     width: 30%;
   }
@@ -6049,7 +6114,7 @@ ul.pagination li {
   .reveal-modal.small {
     left: 0;
     margin: 0 auto;
-    max-width: 62.5rem;
+    max-width: 50%;
     right: 0;
     width: 40%;
   }
@@ -6059,7 +6124,7 @@ ul.pagination li {
   .reveal-modal.medium {
     left: 0;
     margin: 0 auto;
-    max-width: 62.5rem;
+    max-width: 50%;
     right: 0;
     width: 60%;
   }
@@ -6069,7 +6134,7 @@ ul.pagination li {
   .reveal-modal.large {
     left: 0;
     margin: 0 auto;
-    max-width: 62.5rem;
+    max-width: 50%;
     right: 0;
     width: 70%;
   }
@@ -6079,7 +6144,7 @@ ul.pagination li {
   .reveal-modal.xlarge {
     left: 0;
     margin: 0 auto;
-    max-width: 62.5rem;
+    max-width: 50%;
     right: 0;
     width: 95%;
   }
@@ -6099,7 +6164,7 @@ ul.pagination li {
   .reveal-modal.full {
     left: 0;
     margin: 0 auto;
-    max-width: 62.5rem;
+    max-width: 50%;
     right: 0;
     width: 100%;
   }
@@ -9735,35 +9800,146 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 1, ../scss/_overrides.scss */
+/* line 3, ../scss/_overrides.scss */
 .highlight-box {
   background-color: #87D37C;
   font-size: 14pt;
 }
 
-/* line 7, ../scss/_overrides.scss */
+/* line 9, ../scss/_overrides.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-/* line 11, ../scss/_overrides.scss */
+/* line 13, ../scss/_overrides.scss */
+.top-bar img {
+  margin-right: 10px;
+}
+
+/* line 19, ../scss/_overrides.scss */
+.top-bar img {
+  margin-top: 0.4375rem;
+  margin-left: 20px;
+}
+
+/* line 25, ../scss/_overrides.scss */
+p {
+  font-family: "Abril Text", serif;
+  font-size: 12pt;
+}
+
+/* line 30, ../scss/_overrides.scss */
+.required {
+  border-left: 5px solid #3EB449;
+}
+
+/* line 35, ../scss/_overrides.scss */
+#sign-in-modal p, #sign-up-modal p {
+  font-family: "Gibson";
+}
+
+/* line 40, ../scss/_overrides.scss */
 .hero {
   background: url("../img/landing_hero.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 0px 0px;
+  padding-top: 200px;
   height: 450px;
   color: white;
 }
-/* line 19, ../scss/_overrides.scss */
+/* line 50, ../scss/_overrides.scss */
 .hero h1 {
   color: white;
   vertical-align: middle;
 }
 
-/* line 25, ../scss/_overrides.scss */
+/* line 57, ../scss/_overrides.scss */
+.landing-campaign h1, .landing-campaign h2, .landing-campaign h3, .landing-campaign h4, .landing-campaign h5 {
+  margin: 0px;
+  font-family: "Gibson";
+}
+/* line 61, ../scss/_overrides.scss */
+.landing-campaign .org_name {
+  font-weight: 200;
+  font-size: 14pt;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+/* line 67, ../scss/_overrides.scss */
+.landing-campaign p {
+  margin-bottom: 0px;
+  font-family: "Gibson";
+}
+/* line 71, ../scss/_overrides.scss */
+.landing-campaign img {
+  margin-bottom: 10px;
+}
+/* line 74, ../scss/_overrides.scss */
+.landing-campaign .camp-title {
+  font-weight: 600;
+  font-size: 14pt;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+/* line 80, ../scss/_overrides.scss */
+.landing-campaign .highlight-head {
+  font-weight: 600;
+}
+/* line 83, ../scss/_overrides.scss */
+.landing-campaign .highlight-unit {
+  font-weight: 400;
+}
+/* line 86, ../scss/_overrides.scss */
+.landing-campaign h5 {
+  margin-top: 10px;
+  font-weight: 200;
+}
+/* line 90, ../scss/_overrides.scss */
+.landing-campaign .progress {
+  margin-bottom: 5px;
+}
+
+/* line 95, ../scss/_overrides.scss */
+.featured {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 100, ../scss/_overrides.scss */
+div.reason {
+  border: .5px solid white;
+}
+
+/* line 104, ../scss/_overrides.scss */
+.benefits {
+  margin-top: 20px;
+  background-color: #40A9DF;
+}
+/* line 108, ../scss/_overrides.scss */
+.benefits p {
+  color: white;
+}
+/* line 111, ../scss/_overrides.scss */
+.benefits h2 {
+  color: white;
+}
+/* line 114, ../scss/_overrides.scss */
+.benefits h4 {
+  color: white;
+  margin-bottom: 20px;
+}
+/* line 118, ../scss/_overrides.scss */
+.benefits img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* line 124, ../scss/_overrides.scss */
 .impact {
+  padding-top: 40px;
   background: url("../img/impact_image.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -9772,94 +9948,21 @@ h1, h2, h3, h4, h5, h6 {
   height: 450px;
   color: white;
 }
-/* line 33, ../scss/_overrides.scss */
+/* line 133, ../scss/_overrides.scss */
 .impact h2 {
   color: white;
 }
 
-/* line 39, ../scss/_overrides.scss */
-.top-bar img {
-  margin-top: 0.4375rem;
-  margin-left: 20px;
-}
-
-/* line 45, ../scss/_overrides.scss */
-p {
-  font-family: "Abril Text", serif;
-  font-size: 12pt;
-}
-
-/* line 50, ../scss/_overrides.scss */
-.benefits {
-  background-color: #40A9DF;
-}
-/* line 52, ../scss/_overrides.scss */
-.benefits p {
-  color: white;
-}
-
-/* line 57, ../scss/_overrides.scss */
-div.reason {
-  border: .5px solid white;
-}
-
-/* line 62, ../scss/_overrides.scss */
-.landing-campaign .org_name {
-  font-family: "Gibson";
-  font-weight: 400;
-  font-size: 14pt;
-  line-height: 1.2;
-  margin-bottom: 5px;
-}
-/* line 69, ../scss/_overrides.scss */
-.landing-campaign p {
-  margin-bottom: 0px;
-}
-/* line 72, ../scss/_overrides.scss */
-.landing-campaign img {
-  margin-bottom: 10px;
-}
-/* line 75, ../scss/_overrides.scss */
-.landing-campaign .camp-title {
-  font-family: "Gibson";
-  font-weight: 600;
-  line-height: 1.2;
-  margin-bottom: 10px;
-}
-
-/* line 86, ../scss/_overrides.scss */
-.benefits h2 {
-  color: white;
-}
-
-/* line 92, ../scss/_overrides.scss */
-.benefits h4 {
-  color: white;
-  margin-bottom: 20px;
-}
-
-/* line 99, ../scss/_overrides.scss */
-.benefits img {
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-/* line 105, ../scss/_overrides.scss */
-.featured {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-/* line 110, ../scss/_overrides.scss */
+/* line 138, ../scss/_overrides.scss */
 #footer-logo {
   margin-top: 20px;
 }
 
-/* line 115, ../scss/_overrides.scss */
+/* line 143, ../scss/_overrides.scss */
 .footer .row {
   margin-top: 20px;
 }
-/* line 118, ../scss/_overrides.scss */
+/* line 146, ../scss/_overrides.scss */
 .footer .row ul li {
   list-style-type: none;
 }
