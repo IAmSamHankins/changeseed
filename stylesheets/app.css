@@ -9828,17 +9828,16 @@ p {
   font-size: 12pt;
 }
 
-/* line 30, ../scss/_overrides.scss */
-.required {
-  border-left: 5px solid #3EB449;
-}
-
-/* line 35, ../scss/_overrides.scss */
+/* line 31, ../scss/_overrides.scss */
 #sign-in-modal p, #sign-up-modal p {
   font-family: "Gibson";
 }
+/* line 34, ../scss/_overrides.scss */
+#sign-in-modal .required, #sign-up-modal .required {
+  border-left: 5px solid #3EB449;
+}
 
-/* line 40, ../scss/_overrides.scss */
+/* line 39, ../scss/_overrides.scss */
 .hero {
   background: url("../img/landing_hero.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -9850,94 +9849,94 @@ p {
   height: 450px;
   color: white;
 }
-/* line 50, ../scss/_overrides.scss */
+/* line 49, ../scss/_overrides.scss */
 .hero h1 {
   color: white;
   vertical-align: middle;
 }
 
-/* line 57, ../scss/_overrides.scss */
+/* line 56, ../scss/_overrides.scss */
 .landing-campaign h1, .landing-campaign h2, .landing-campaign h3, .landing-campaign h4, .landing-campaign h5 {
   margin: 0px;
   font-family: "Gibson";
 }
-/* line 61, ../scss/_overrides.scss */
+/* line 60, ../scss/_overrides.scss */
 .landing-campaign .org_name {
   font-weight: 200;
   font-size: 14pt;
   line-height: 1.2;
   margin-bottom: 5px;
 }
-/* line 67, ../scss/_overrides.scss */
+/* line 66, ../scss/_overrides.scss */
 .landing-campaign p {
   margin-bottom: 0px;
   font-family: "Gibson";
 }
-/* line 71, ../scss/_overrides.scss */
+/* line 70, ../scss/_overrides.scss */
 .landing-campaign img {
   margin-bottom: 10px;
 }
-/* line 74, ../scss/_overrides.scss */
+/* line 73, ../scss/_overrides.scss */
 .landing-campaign .camp-title {
   font-weight: 600;
   font-size: 14pt;
   line-height: 1.2;
   margin-bottom: 10px;
 }
-/* line 80, ../scss/_overrides.scss */
+/* line 79, ../scss/_overrides.scss */
 .landing-campaign .highlight-head {
   font-weight: 600;
 }
-/* line 83, ../scss/_overrides.scss */
+/* line 82, ../scss/_overrides.scss */
 .landing-campaign .highlight-unit {
   font-weight: 400;
 }
-/* line 86, ../scss/_overrides.scss */
+/* line 85, ../scss/_overrides.scss */
 .landing-campaign h5 {
   margin-top: 10px;
   font-weight: 200;
 }
-/* line 90, ../scss/_overrides.scss */
+/* line 89, ../scss/_overrides.scss */
 .landing-campaign .progress {
   margin-bottom: 5px;
 }
 
-/* line 95, ../scss/_overrides.scss */
+/* line 94, ../scss/_overrides.scss */
 .featured {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 100, ../scss/_overrides.scss */
+/* line 99, ../scss/_overrides.scss */
 div.reason {
   border: .5px solid white;
 }
 
-/* line 104, ../scss/_overrides.scss */
+/* line 103, ../scss/_overrides.scss */
 .benefits {
   margin-top: 20px;
   background-color: #40A9DF;
 }
-/* line 108, ../scss/_overrides.scss */
+/* line 107, ../scss/_overrides.scss */
 .benefits p {
   color: white;
 }
-/* line 111, ../scss/_overrides.scss */
+/* line 110, ../scss/_overrides.scss */
 .benefits h2 {
   color: white;
 }
-/* line 114, ../scss/_overrides.scss */
+/* line 113, ../scss/_overrides.scss */
 .benefits h4 {
   color: white;
   margin-bottom: 20px;
 }
-/* line 118, ../scss/_overrides.scss */
+/* line 117, ../scss/_overrides.scss */
 .benefits img {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 124, ../scss/_overrides.scss */
+/* line 123, ../scss/_overrides.scss */
 .impact {
   padding-top: 40px;
   background: url("../img/impact_image.png") no-repeat center center;
@@ -9948,21 +9947,21 @@ div.reason {
   height: 450px;
   color: white;
 }
-/* line 133, ../scss/_overrides.scss */
+/* line 132, ../scss/_overrides.scss */
 .impact h2 {
   color: white;
 }
 
-/* line 138, ../scss/_overrides.scss */
+/* line 137, ../scss/_overrides.scss */
 #footer-logo {
   margin-top: 20px;
 }
 
-/* line 143, ../scss/_overrides.scss */
+/* line 142, ../scss/_overrides.scss */
 .footer .row {
   margin-top: 20px;
 }
-/* line 146, ../scss/_overrides.scss */
+/* line 145, ../scss/_overrides.scss */
 .footer .row ul li {
   list-style-type: none;
 }

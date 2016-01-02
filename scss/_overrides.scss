@@ -1,4 +1,4 @@
-
+// Landing Page
 
 .highlight-box {
  // height: 70px;
@@ -27,13 +27,12 @@ p {
   font-size: 12pt;
 }
 
-.required {
-    border-left: 5px solid $brand-green;
-  }
-
 #sign-in-modal, #sign-up-modal {
   p {
     font-family: $main-font;
+  }
+  .required {
+    border-left: 5px solid $brand-green;
   }
 }
 
@@ -149,3 +148,5 @@ div.reason {
     }
     }
   }
+
+  //Campaign Page
