@@ -9965,3 +9965,42 @@ div.reason {
 .footer .row ul li {
   list-style-type: none;
 }
+
+/* line 154, ../scss/_overrides.scss */
+.campaign-hero {
+  background: url("../img/camp-hero.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 0px -100px;
+  padding-top: 300px;
+  height: 500px;
+  color: white;
+}
+/* line 164, ../scss/_overrides.scss */
+.campaign-hero h3 {
+  color: white;
+}
+/* line 167, ../scss/_overrides.scss */
+.campaign-hero p {
+  font-family: "Gibson";
+  font-size: 14pt;
+  font-weight: 400;
+  line-height: 18pt;
+}
+
+/* line 175, ../scss/_overrides.scss */
+.camp-info-bar {
+  margin-top: 20px;
+}
+
+/* line 179, ../scss/_overrides.scss */
+div.selection-box {
+  border: 0.5px solid #3EB449;
+}
+
+/* line 183, ../scss/_overrides.scss */
+.org-side-bar {
+  background-color: #FDFFD7;
+}

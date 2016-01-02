@@ -150,3 +150,36 @@ div.reason {
   }
 
   //Campaign Page
+
+.campaign-hero { 
+    background: url("../img/camp-hero.png") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0px -100px;
+    padding-top: 300px;
+    height: 500px;
+    color: white;
+    h3 {
+      color: white;
+    }
+    p {
+      font-family: $main-font;
+      font-size: 14pt;
+      font-weight: 400;
+      line-height: 18pt;
+    }
+}
+
+.camp-info-bar {
+  margin-top: 20px;
+}
+
+div.selection-box {
+  border: .5px solid $brand-green;
+}
+
+.org-side-bar {
+  background-color: #FDFFD7;
+}
