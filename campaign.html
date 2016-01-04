@@ -147,9 +147,9 @@
 
       <div class="large-4 medium-4 columns camp-progress">
         <div class="row">
-            <div class="large-12 columns text-center">
+            <div class="large-12 columns">
               <h5>Campaign Goal</h5>
-              <h3>$1758.00</h3>
+              <h3 class="goal">$1758.00</h3>
               <div class="progress large-12 secondary">
                 <span class="meter" style="width: 75%"></span>
               </div>
@@ -194,6 +194,7 @@
         <div class="selection-box">
           <h4>I want to impact the lives of</h4>
           <select>
+            <option value="0">Select</option>
             <option value="1">1 Student</option>
             <option value="2">2 Students</option>
             <option value="3">3 Students</option>
@@ -213,11 +214,15 @@
 
 <!-- Campaign Body Start -->
 <div class="campaign-body">
-  <ul class="tabs" data-tab>
+<div class="row">
+  <div class="large-12 columns">
+  <ul class="tabs main-tabs" data-tab>
     <li class="tab-title active"><a href="#our-campaign">Our Campaign</a></li>
     <li class="tab-title"><a href="#our-needs">Our Needs</a></li>
     <li class="tab-title"><a href="#campaign-feed">Campaign Feed</a></li>
-  </ul>
+  </ul> 
+  </div>
+</div>
   <div class="tabs-content">
     <div class="content active" id="our-campaign">
       <div class="row">
@@ -338,12 +343,10 @@ Mission Possible leads a trip every Spring Break to complete service projects in
             </ul>
             <div class="tabs-content">
               <div class="content active" id="panel1">
-                <div class="row feed-item">
+                <div class="feed-item">
                   <div class="row">
                     <div class="large-2 columns">
-                      <div class="propic">
-                        <img src="img/propic.png"/>
-                      </div>
+                      <img src="img/propic.png"/>
                     </div>
                     <div class="large-10 columns">
                       <div class="comment-area">
@@ -357,19 +360,14 @@ Mission Possible leads a trip every Spring Break to complete service projects in
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="large-12 columns">
-                      <p>I visited Honduras on a similar trip when I was in high school. It is an incredible place and the Honduran people are incredibly kind. So happy about the work you are doing and excited I can do something to pitch in. Best wishes!</p>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="large-12 columns text-right">
-                      <a href="#">Leave A Comment</a>
-                    </div>
-                  </div>
-
                 </div>
-              </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <p class="comment">I visited Honduras on a similar trip when I was in high school. It is an incredible place and the Honduran people are incredibly kind. So happy about the work you are doing and excited I can do something to pitch in. Best wishes!</p>
+                    <p class="text-right"><a href="#">Leave A Comment</a></p>
+                  </div>
+                </div>
+                  </div>
               </div>
               <div class="content" id="panel2">
                 <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>

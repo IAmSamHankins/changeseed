@@ -6609,32 +6609,32 @@ table {
 /* line 69, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table caption {
   background: transparent;
-  color: #222222;
+  color: white;
   font-size: 1rem;
   font-weight: bold;
 }
 /* line 78, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table thead {
-  background: #F5F5F5;
+  background: #3EB449;
 }
 /* line 82, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table thead tr th,
 table thead tr td {
-  color: #222222;
+  color: white;
   font-size: 0.875rem;
-  font-weight: bold;
+  font-weight: 400;
   padding: 0.5rem 0.625rem 0.625rem;
 }
 /* line 92, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table tfoot {
-  background: #F5F5F5;
+  background: #3EB449;
 }
 /* line 96, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table tfoot tr th,
 table tfoot tr td {
-  color: #222222;
+  color: white;
   font-size: 0.875rem;
-  font-weight: bold;
+  font-weight: 400;
   padding: 0.5rem 0.625rem 0.625rem;
 }
 /* line 107, ../bower_components/foundation/scss/foundation/components/_tables.scss */
@@ -6647,7 +6647,7 @@ table tr td {
 }
 /* line 115, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
-  background: #F9F9F9;
+  background: #87D37C;
 }
 /* line 120, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table thead tr th,
@@ -6686,8 +6686,8 @@ table tr td {
 .tabs dd > a,
 .tabs .tab-title > a {
   display: block;
-  background-color: #EFEFEF;
-  color: #222222;
+  background-color: #3EB449;
+  color: white;
   font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
   padding: 1rem 2rem;
@@ -6695,13 +6695,13 @@ table tr td {
 /* line 50, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
 .tabs dd > a:hover,
 .tabs .tab-title > a:hover {
-  background-color: #e1e1e1;
+  background-color: #3aa945;
 }
 /* line 55, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
 .tabs dd.active > a,
 .tabs .tab-title.active > a {
   background-color: #FFFFFF;
-  color: #222222;
+  color: #3EB449;
 }
 /* line 64, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
 .tabs.radius dd:first-child a,
@@ -7977,13 +7977,13 @@ td {
 /* Default Link Styles */
 /* line 220, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a {
-  color: #3EB449;
+  color: #40A9DF;
   line-height: inherit;
   text-decoration: none;
 }
 /* line 225, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #359b3f;
+  color: #2398d3;
 }
 /* line 233, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a img {
@@ -9800,44 +9800,64 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 3, ../scss/_overrides.scss */
+/* line 6, ../scss/_overrides.scss */
+.camp-info-bar .highlight-head {
+  font-family: "Gibson";
+  font-weight: 600;
+  color: white;
+}
+
+/* line 17, ../scss/_overrides.scss */
+.camp-info-bar .highlight-unit {
+  font-family: "Gibson";
+  font-weight: 300;
+  color: white;
+}
+
+/* line 23, ../scss/_overrides.scss */
+.camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5 {
+  font-family: "Gibson";
+  font-weight: 400;
+}
+
+/* line 30, ../scss/_overrides.scss */
 .highlight-box {
   background-color: #87D37C;
   font-size: 14pt;
 }
 
-/* line 9, ../scss/_overrides.scss */
+/* line 36, ../scss/_overrides.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-/* line 13, ../scss/_overrides.scss */
+/* line 40, ../scss/_overrides.scss */
 .top-bar img {
   margin-right: 10px;
 }
 
-/* line 19, ../scss/_overrides.scss */
+/* line 46, ../scss/_overrides.scss */
 .top-bar img {
   margin-top: 0.4375rem;
   margin-left: 20px;
 }
 
-/* line 25, ../scss/_overrides.scss */
+/* line 52, ../scss/_overrides.scss */
 p {
   font-family: "Abril Text", serif;
   font-size: 12pt;
 }
 
-/* line 31, ../scss/_overrides.scss */
+/* line 58, ../scss/_overrides.scss */
 #sign-in-modal p, #sign-up-modal p {
   font-family: "Gibson";
 }
-/* line 34, ../scss/_overrides.scss */
+/* line 61, ../scss/_overrides.scss */
 #sign-in-modal .required, #sign-up-modal .required {
   border-left: 5px solid #3EB449;
 }
 
-/* line 39, ../scss/_overrides.scss */
+/* line 66, ../scss/_overrides.scss */
 .hero {
   background: url("../img/landing_hero.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -9849,94 +9869,94 @@ p {
   height: 450px;
   color: white;
 }
-/* line 49, ../scss/_overrides.scss */
+/* line 76, ../scss/_overrides.scss */
 .hero h1 {
   color: white;
   vertical-align: middle;
 }
 
-/* line 56, ../scss/_overrides.scss */
+/* line 83, ../scss/_overrides.scss */
 .landing-campaign h1, .landing-campaign h2, .landing-campaign h3, .landing-campaign h4, .landing-campaign h5 {
   margin: 0px;
   font-family: "Gibson";
 }
-/* line 60, ../scss/_overrides.scss */
+/* line 87, ../scss/_overrides.scss */
 .landing-campaign .org_name {
   font-weight: 200;
   font-size: 14pt;
   line-height: 1.2;
   margin-bottom: 5px;
 }
-/* line 66, ../scss/_overrides.scss */
+/* line 93, ../scss/_overrides.scss */
 .landing-campaign p {
   margin-bottom: 0px;
   font-family: "Gibson";
 }
-/* line 70, ../scss/_overrides.scss */
+/* line 97, ../scss/_overrides.scss */
 .landing-campaign img {
   margin-bottom: 10px;
 }
-/* line 73, ../scss/_overrides.scss */
+/* line 100, ../scss/_overrides.scss */
 .landing-campaign .camp-title {
   font-weight: 600;
   font-size: 14pt;
   line-height: 1.2;
   margin-bottom: 10px;
 }
-/* line 79, ../scss/_overrides.scss */
+/* line 106, ../scss/_overrides.scss */
 .landing-campaign .highlight-head {
   font-weight: 600;
 }
-/* line 82, ../scss/_overrides.scss */
+/* line 109, ../scss/_overrides.scss */
 .landing-campaign .highlight-unit {
   font-weight: 400;
 }
-/* line 85, ../scss/_overrides.scss */
+/* line 112, ../scss/_overrides.scss */
 .landing-campaign h5 {
   margin-top: 10px;
   font-weight: 200;
 }
-/* line 89, ../scss/_overrides.scss */
+/* line 116, ../scss/_overrides.scss */
 .landing-campaign .progress {
   margin-bottom: 5px;
 }
 
-/* line 94, ../scss/_overrides.scss */
+/* line 121, ../scss/_overrides.scss */
 .featured {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 99, ../scss/_overrides.scss */
+/* line 126, ../scss/_overrides.scss */
 div.reason {
   border: .5px solid white;
 }
 
-/* line 103, ../scss/_overrides.scss */
+/* line 130, ../scss/_overrides.scss */
 .benefits {
   margin-top: 20px;
   background-color: #40A9DF;
 }
-/* line 107, ../scss/_overrides.scss */
+/* line 134, ../scss/_overrides.scss */
 .benefits p {
   color: white;
 }
-/* line 110, ../scss/_overrides.scss */
+/* line 137, ../scss/_overrides.scss */
 .benefits h2 {
   color: white;
 }
-/* line 113, ../scss/_overrides.scss */
+/* line 140, ../scss/_overrides.scss */
 .benefits h4 {
   color: white;
   margin-bottom: 20px;
 }
-/* line 117, ../scss/_overrides.scss */
+/* line 144, ../scss/_overrides.scss */
 .benefits img {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 123, ../scss/_overrides.scss */
+/* line 150, ../scss/_overrides.scss */
 .impact {
   padding-top: 40px;
   background: url("../img/impact_image.png") no-repeat center center;
@@ -9947,26 +9967,26 @@ div.reason {
   height: 450px;
   color: white;
 }
-/* line 132, ../scss/_overrides.scss */
+/* line 159, ../scss/_overrides.scss */
 .impact h2 {
   color: white;
 }
 
-/* line 137, ../scss/_overrides.scss */
+/* line 164, ../scss/_overrides.scss */
 #footer-logo {
   margin-top: 20px;
 }
 
-/* line 142, ../scss/_overrides.scss */
+/* line 169, ../scss/_overrides.scss */
 .footer .row {
   margin-top: 20px;
 }
-/* line 145, ../scss/_overrides.scss */
+/* line 172, ../scss/_overrides.scss */
 .footer .row ul li {
   list-style-type: none;
 }
 
-/* line 154, ../scss/_overrides.scss */
+/* line 181, ../scss/_overrides.scss */
 .campaign-hero {
   background: url("../img/camp-hero.png") no-repeat center center;
   -webkit-background-size: cover;
@@ -9978,11 +9998,11 @@ div.reason {
   height: 500px;
   color: white;
 }
-/* line 164, ../scss/_overrides.scss */
+/* line 191, ../scss/_overrides.scss */
 .campaign-hero h3 {
   color: white;
 }
-/* line 167, ../scss/_overrides.scss */
+/* line 194, ../scss/_overrides.scss */
 .campaign-hero p {
   font-family: "Gibson";
   font-size: 14pt;
@@ -9990,22 +10010,52 @@ div.reason {
   line-height: 18pt;
 }
 
-/* line 175, ../scss/_overrides.scss */
+/* line 204, ../scss/_overrides.scss */
 .camp-info-bar {
   margin-top: 20px;
 }
+/* line 206, ../scss/_overrides.scss */
+.camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5 {
+  margin: 0px;
+}
+/* line 210, ../scss/_overrides.scss */
+.camp-info-bar .goal {
+  font-weight: 600;
+}
+/* line 213, ../scss/_overrides.scss */
+.camp-info-bar .highlight-head {
+  margin: 0;
+}
+/* line 220, ../scss/_overrides.scss */
+.camp-info-bar .highlight-box {
+  margin-top: 25px;
+}
+/* line 222, ../scss/_overrides.scss */
+.camp-info-bar .highlight-box h2 {
+  color: white;
+}
+/* line 226, ../scss/_overrides.scss */
+.camp-info-bar p {
+  font-family: "Gibson";
+}
 
-/* line 179, ../scss/_overrides.scss */
+/* line 231, ../scss/_overrides.scss */
+.comment {
+  margin-top: 10px;
+  .margin-bottom: 5px;
+}
+
+/* line 236, ../scss/_overrides.scss */
 div.selection-box {
   border: 0.5px solid #3EB449;
 }
 
-/* line 183, ../scss/_overrides.scss */
+/* line 240, ../scss/_overrides.scss */
 .org-side-bar {
   background-color: #FDFFD7;
 }
 
-/* line 187, ../scss/_overrides.scss */
+/* line 244, ../scss/_overrides.scss */
 div.seed-donation-side {
   border: .5px solid black;
 }

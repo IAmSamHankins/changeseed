@@ -280,7 +280,7 @@ $alert-color: $brand-blue;
 // We use these to style anchors
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
-// $anchor-font-color: $primary-color;
+$anchor-font-color: $secondary-color;
 // $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
 
 // We use these to style the <hr> element
@@ -1306,7 +1306,7 @@ $reveal-max-width: 50%;
 
 // These control the background color for the table and even rows
 // $table-bg: $white;
-// $table-even-row-bg: $snow;
+$table-even-row-bg: $light-green;
 
 // These control the table cell border style
 // $table-border-style: solid;
@@ -1314,10 +1314,10 @@ $reveal-max-width: 50%;
 // $table-border-color: $gainsboro;
 
 // These control the table head styles
-// $table-head-bg: $white-smoke;
+$table-head-bg: $brand-green;
 // $table-head-font-size: rem-calc(14);
-// $table-head-font-color: $jet;
-// $table-head-font-weight: $font-weight-bold;
+$table-head-font-color: white;
+$table-head-font-weight: 400;
 // $table-head-padding: rem-calc(8 10 10);
 
 // These control the table foot styles
@@ -1351,11 +1351,11 @@ $reveal-max-width: 50%;
 // $include-html-tabs-classes: $include-html-classes;
 
 // $tabs-navigation-padding: rem-calc(16);
-// $tabs-navigation-bg-color: $silver;
+$tabs-navigation-bg-color: $brand-green;
 // $tabs-navigation-active-bg-color: $white;
-// $tabs-navigation-hover-bg-color: scale-color($tabs-navigation-bg-color, $lightness: -6%);
-// $tabs-navigation-font-color: $jet;
-// $tabs-navigation-active-font-color: $tabs-navigation-font-color;
+$tabs-navigation-hover-bg-color: scale-color($tabs-navigation-bg-color, $lightness: -6%);
+$tabs-navigation-font-color: white;
+$tabs-navigation-active-font-color: $tabs-navigation-bg-color;
 // $tabs-navigation-font-size: rem-calc(16);
 // $tabs-navigation-font-family: $body-font-family;
 
