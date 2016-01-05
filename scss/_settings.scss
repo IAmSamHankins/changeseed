@@ -92,8 +92,8 @@ $font-family-serif: "Abril Text", Georgia, Cambria, "Times New Roman", Times, se
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
-// $font-weight-normal: normal;
-// $font-weight-bold: bold;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
 
 
 // $ghost       : #FAFAFA;
@@ -115,15 +115,17 @@ $font-family-serif: "Abril Text", Georgia, Cambria, "Times New Roman", Times, se
 // $jet         : #222222;
 // $black       : #000000;
 
-$brand-green: #3EB449;
-$brand-blue: #40A9DF;
-$light-green: #87D37C;
-$white       : #FFFFFF;
-$gray         : #D8D8D8;
+$brand-green    : #3EB449;
+$brand-blue     : #40A9DF;
+$light-green    : #87D37C;
+$white          : #FFFFFF;
+$gray           : #D8D8D8;
+$light-gray     : #F7F7F7;
+$light-yellow   : #FDFFD7;
 
 // We use these as default colors throughout
 
-$primary-color: #3EB449;
+$primary-color: $brand-green;
 $secondary-color: $brand-blue;
 $copy-font: "Abril Text", serif;
 $main-font: "Gibson";
@@ -221,7 +223,7 @@ $alert-color: $brand-blue;
 
 // We use these to control header font styles
 // $header-font-family: $body-font-family;
-// $header-font-weight: $font-weight-normal;
+$header-font-weight: 600;
 // $header-font-style: normal;
 // $header-font-color: $jet;
 // $header-line-height: 1.4;
@@ -258,9 +260,9 @@ $alert-color: $brand-blue;
 
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
-// $paragraph-font-weight: $font-weight-normal;
+$paragraph-font-weight: 400;
 // $paragraph-font-size: 1rem;
-// $paragraph-line-height: 1.6;
+$paragraph-line-height: 1.8;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
 // $paragraph-aside-line-height: 1.35;

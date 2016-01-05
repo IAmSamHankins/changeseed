@@ -154,7 +154,7 @@ body {
   cursor: auto;
   font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 24px;
   margin: 0;
   padding: 0;
@@ -1796,7 +1796,7 @@ select {
   border-width: 1px;
   display: block;
   font-size: 0.8125rem;
-  font-weight: normal;
+  font-weight: 400;
   margin-bottom: 1.25rem;
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   position: relative;
@@ -4089,7 +4089,7 @@ label {
   cursor: pointer;
   display: block;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.5;
   margin-bottom: 0;
   /* Styles for required inputs */
@@ -4449,7 +4449,7 @@ fieldset {
 }
 /* line 278, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 fieldset legend {
-  font-weight: bold;
+  font-weight: 600;
   margin: 0;
   margin-left: -0.1875rem;
   padding: 0 0.1875rem;
@@ -4461,7 +4461,7 @@ fieldset legend {
   display: block;
   font-size: 0.75rem;
   font-style: italic;
-  font-weight: normal;
+  font-weight: 400;
   margin-bottom: 1rem;
   margin-top: -1px;
   padding: 0.375rem 0.5625rem 0.5625rem;
@@ -4478,7 +4478,7 @@ span.error, small.error {
   display: block;
   font-size: 0.75rem;
   font-style: italic;
-  font-weight: normal;
+  font-weight: 400;
   margin-bottom: 1rem;
   margin-top: -1px;
   padding: 0.375rem 0.5625rem 0.5625rem;
@@ -4507,7 +4507,7 @@ span.error, small.error {
   display: block;
   font-size: 0.75rem;
   font-style: italic;
-  font-weight: normal;
+  font-weight: 400;
   margin-bottom: 1rem;
   margin-top: -1px;
   padding: 0.375rem 0.5625rem 0.5625rem;
@@ -5011,7 +5011,7 @@ label.error {
   color: #FFFFFF;
   display: none;
   font-family: inherit;
-  font-weight: normal;
+  font-weight: 400;
   position: absolute;
   top: 0;
   width: 95%;
@@ -5086,7 +5086,7 @@ label.error {
 .joyride-tip-guide h5,
 .joyride-tip-guide h6 {
   color: #FFFFFF;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.25;
   margin: 0;
 }
@@ -5120,7 +5120,7 @@ label.error {
 .joyride-close-tip {
   color: #777777 !important;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: .5 !important;
   position: absolute;
   text-decoration: none;
@@ -5219,7 +5219,7 @@ kbd {
 .label {
   display: inline-block;
   font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1;
   margin-bottom: auto;
   position: relative;
@@ -5667,7 +5667,7 @@ ul.pagination li.current a, ul.pagination li.current button {
   background: #3EB449;
   color: #FFFFFF;
   cursor: default;
-  font-weight: bold;
+  font-weight: 600;
 }
 /* line 75, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
@@ -5784,7 +5784,7 @@ ul.pagination li {
   color: #EEEEEE;
   font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: 400;
   padding: 0.9375rem 1.25rem;
   text-align: center;
 }
@@ -5794,7 +5794,7 @@ ul.pagination li {
   color: #333333;
   font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: 400;
   padding: 0.9375rem 1.25rem;
   text-align: center;
 }
@@ -5804,7 +5804,7 @@ ul.pagination li {
   border-bottom: dotted 1px #DDDDDD;
   color: #777777;
   font-size: 0.75rem;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.4;
   padding: 0.9375rem;
   text-align: center;
@@ -5815,7 +5815,7 @@ ul.pagination li {
   border-bottom: dotted 1px #DDDDDD;
   color: #333333;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 400;
   padding: 0.9375rem;
   text-align: center;
 }
@@ -6178,7 +6178,7 @@ ul.pagination li {
   color: #AAAAAA;
   cursor: pointer;
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1;
   position: absolute;
   top: 0.625rem;
@@ -6197,7 +6197,7 @@ ul.pagination li {
 /* line 71, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 400;
   margin: 0 0 0.4375rem 0;
 }
 /* line 76, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
@@ -6220,7 +6220,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child:not(.button) {
   color: #73cf7c;
   font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 400;
 }
 /* line 97, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -6407,7 +6407,7 @@ ul.pagination li {
   float: left;
   font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 400;
   margin-left: 1rem;
   margin-bottom: 0;
 }
@@ -6433,7 +6433,7 @@ ul.pagination li {
   background: #3EB449;
   color: #FFFFFF;
   cursor: default;
-  font-weight: normal;
+  font-weight: 400;
   padding: 0.1875rem 1rem;
 }
 /* line 100, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
@@ -6817,7 +6817,7 @@ table tr td {
   border-bottom: dotted 1px #CCCCCC;
   color: #333333;
   cursor: help;
-  font-weight: bold;
+  font-weight: 600;
 }
 /* line 44, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
@@ -6835,7 +6835,7 @@ table tr td {
   color: #FFFFFF;
   display: none;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.3;
   max-width: 300px;
   padding: 0.75rem;
@@ -6884,7 +6884,7 @@ table tr td {
   color: #777777;
   display: block;
   font-size: 0.625rem;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @media only screen {
@@ -7031,7 +7031,7 @@ meta.foundation-mq-topbar {
 .top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
   color: #3EB449;
   display: block;
-  font-weight: normal;
+  font-weight: 400;
   padding: 0 1.04167rem;
   width: 75%;
 }
@@ -7046,7 +7046,7 @@ meta.foundation-mq-topbar {
   color: #3EB449;
   display: block;
   font-size: 0.8125rem;
-  font-weight: bold;
+  font-weight: 600;
   height: 3.125rem;
   line-height: 3.125rem;
   padding: 0 1.04167rem;
@@ -7145,7 +7145,7 @@ meta.foundation-mq-topbar {
   display: block;
   font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.8125rem;
-  font-weight: normal;
+  font-weight: 400;
   padding-left: 1.04167rem;
   padding: 12px 0 12px 1.04167rem;
   text-transform: none;
@@ -7404,12 +7404,12 @@ meta.foundation-mq-topbar {
 }
 /* line 444, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a {
-  font-weight: normal;
+  font-weight: 400;
   padding: 8px 1.04167rem;
 }
 /* line 447, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
-  font-weight: normal;
+  font-weight: 400;
 }
 /* line 452, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5, .top-bar-section .dropdown li.parent-link {
@@ -7439,7 +7439,7 @@ meta.foundation-mq-topbar {
 .top-bar-section .dropdown label {
   color: #777777;
   font-size: 0.625rem;
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 0;
   padding: 8px 1.04167rem 2px;
   text-transform: uppercase;
@@ -7995,8 +7995,8 @@ a img {
 p {
   font-family: inherit;
   font-size: 1rem;
-  font-weight: normal;
-  line-height: 1.6;
+  font-weight: 400;
+  line-height: 1.8;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility;
 }
@@ -8018,7 +8018,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222;
   font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   line-height: 1.4;
   margin-bottom: 0.5rem;
   margin-top: 0.2rem;
@@ -8065,7 +8065,7 @@ h6 {
 .subheader {
   line-height: 1.4;
   color: #6f6f6f;
-  font-weight: normal;
+  font-weight: 400;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
 }
@@ -8090,7 +8090,7 @@ i {
 /* line 296, ../bower_components/foundation/scss/foundation/components/_type.scss */
 strong,
 b {
-  font-weight: bold;
+  font-weight: 600;
   line-height: inherit;
 }
 
@@ -8108,7 +8108,7 @@ code {
   border-width: 1px;
   color: #333333;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-weight: normal;
+  font-weight: 400;
   padding: 0.125rem 0.3125rem 0.0625rem;
 }
 
@@ -8119,7 +8119,7 @@ ol,
 dl {
   font-family: inherit;
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.8;
   list-style-position: outside;
   margin-bottom: 1.25rem;
 }
@@ -8185,7 +8185,7 @@ ol li ol {
 /* line 382, ../bower_components/foundation/scss/foundation/components/_type.scss */
 dl dt {
   margin-bottom: 0.3rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 /* line 386, ../bower_components/foundation/scss/foundation/components/_type.scss */
 dl dd {
@@ -8237,7 +8237,7 @@ blockquote cite a:visited {
 /* line 424, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
-  line-height: 1.6;
+  line-height: 1.8;
   color: #6f6f6f;
 }
 
@@ -8256,19 +8256,19 @@ blockquote p {
 }
 /* line 441, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vcard .fn {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 0.9375rem;
 }
 
 /* line 448, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vevent .summary {
-  font-weight: bold;
+  font-weight: 600;
 }
 /* line 450, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vevent abbr {
   cursor: default;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
   border: none;
   padding: 0 0.0625rem;
 }
@@ -8434,7 +8434,7 @@ blockquote p {
 /* line 185, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
   color: #FFFFFF;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 2.8125rem;
   margin: 0;
 }
@@ -8647,7 +8647,7 @@ ul.off-canvas-list li label {
   color: #999999;
   display: block;
   font-size: 0.75rem;
-  font-weight: bold;
+  font-weight: 600;
   margin: 0;
   padding: 0.3rem 0.9375rem;
   text-transform: uppercase;
@@ -9024,7 +9024,7 @@ ul.off-canvas-list li a:active {
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
   color: #999999;
-  font-weight: bold;
+  font-weight: 600;
   padding: 0.3rem 0.9375rem;
   text-transform: uppercase;
   margin: 0;
@@ -9087,7 +9087,7 @@ ul.off-canvas-list li a:active {
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
   color: #999999;
-  font-weight: bold;
+  font-weight: 600;
   padding: 0.3rem 0.9375rem;
   text-transform: uppercase;
   margin: 0;
@@ -9151,7 +9151,7 @@ ul.off-canvas-list li a:active {
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
   color: #999999;
-  font-weight: bold;
+  font-weight: 600;
   padding: 0.3rem 0.9375rem;
   text-transform: uppercase;
   margin: 0;
@@ -9209,7 +9209,7 @@ ul.off-canvas-list li a:active {
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
   color: #999999;
-  font-weight: bold;
+  font-weight: 600;
   padding: 0.3rem 0.9375rem;
   text-transform: uppercase;
   margin: 0;
@@ -9807,6 +9807,12 @@ th.hide-for-touch {
   color: white;
 }
 
+/* line 12, ../scss/_overrides.scss */
+.camp-info-bar .days-remaining, .feed-item-comment .days, .feed-item-donation .days, .feed-item-update .days {
+  font-family: "Gibson";
+  font-weight: 300;
+}
+
 /* line 17, ../scss/_overrides.scss */
 .camp-info-bar .highlight-unit {
   font-family: "Gibson";
@@ -9815,49 +9821,49 @@ th.hide-for-touch {
 }
 
 /* line 23, ../scss/_overrides.scss */
-.camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5 {
+.camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5, .camp-info-bar h6 {
   font-family: "Gibson";
   font-weight: 400;
 }
 
-/* line 30, ../scss/_overrides.scss */
+/* line 61, ../scss/_overrides.scss */
 .highlight-box {
   background-color: #87D37C;
   font-size: 14pt;
 }
 
-/* line 36, ../scss/_overrides.scss */
+/* line 67, ../scss/_overrides.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-/* line 40, ../scss/_overrides.scss */
+/* line 71, ../scss/_overrides.scss */
 .top-bar img {
   margin-right: 10px;
 }
 
-/* line 46, ../scss/_overrides.scss */
+/* line 77, ../scss/_overrides.scss */
 .top-bar img {
   margin-top: 0.4375rem;
   margin-left: 20px;
 }
 
-/* line 52, ../scss/_overrides.scss */
+/* line 83, ../scss/_overrides.scss */
 p {
   font-family: "Abril Text", serif;
   font-size: 12pt;
 }
 
-/* line 58, ../scss/_overrides.scss */
+/* line 89, ../scss/_overrides.scss */
 #sign-in-modal p, #sign-up-modal p {
   font-family: "Gibson";
 }
-/* line 61, ../scss/_overrides.scss */
+/* line 92, ../scss/_overrides.scss */
 #sign-in-modal .required, #sign-up-modal .required {
   border-left: 5px solid #3EB449;
 }
 
-/* line 66, ../scss/_overrides.scss */
+/* line 97, ../scss/_overrides.scss */
 .hero {
   background: url("../img/landing_hero.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -9869,94 +9875,95 @@ p {
   height: 450px;
   color: white;
 }
-/* line 76, ../scss/_overrides.scss */
+/* line 107, ../scss/_overrides.scss */
 .hero h1 {
   color: white;
   vertical-align: middle;
 }
 
-/* line 83, ../scss/_overrides.scss */
+/* line 114, ../scss/_overrides.scss */
 .landing-campaign h1, .landing-campaign h2, .landing-campaign h3, .landing-campaign h4, .landing-campaign h5 {
   margin: 0px;
   font-family: "Gibson";
 }
-/* line 87, ../scss/_overrides.scss */
+/* line 118, ../scss/_overrides.scss */
 .landing-campaign .org_name {
   font-weight: 200;
   font-size: 14pt;
   line-height: 1.2;
   margin-bottom: 5px;
 }
-/* line 93, ../scss/_overrides.scss */
+/* line 124, ../scss/_overrides.scss */
 .landing-campaign p {
   margin-bottom: 0px;
   font-family: "Gibson";
 }
-/* line 97, ../scss/_overrides.scss */
+/* line 128, ../scss/_overrides.scss */
 .landing-campaign img {
   margin-bottom: 10px;
 }
-/* line 100, ../scss/_overrides.scss */
+/* line 131, ../scss/_overrides.scss */
 .landing-campaign .camp-title {
   font-weight: 600;
   font-size: 14pt;
   line-height: 1.2;
   margin-bottom: 10px;
 }
-/* line 106, ../scss/_overrides.scss */
+/* line 137, ../scss/_overrides.scss */
 .landing-campaign .highlight-head {
   font-weight: 600;
 }
-/* line 109, ../scss/_overrides.scss */
+/* line 140, ../scss/_overrides.scss */
 .landing-campaign .highlight-unit {
   font-weight: 400;
 }
-/* line 112, ../scss/_overrides.scss */
+/* line 143, ../scss/_overrides.scss */
 .landing-campaign h5 {
   margin-top: 10px;
   font-weight: 200;
 }
-/* line 116, ../scss/_overrides.scss */
+/* line 147, ../scss/_overrides.scss */
 .landing-campaign .progress {
   margin-bottom: 5px;
 }
 
-/* line 121, ../scss/_overrides.scss */
+/* line 152, ../scss/_overrides.scss */
 .featured {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 126, ../scss/_overrides.scss */
+/* line 157, ../scss/_overrides.scss */
 div.reason {
   border: .5px solid white;
 }
 
-/* line 130, ../scss/_overrides.scss */
+/* line 161, ../scss/_overrides.scss */
 .benefits {
   margin-top: 20px;
   background-color: #40A9DF;
 }
-/* line 134, ../scss/_overrides.scss */
+/* line 165, ../scss/_overrides.scss */
 .benefits p {
   color: white;
 }
-/* line 137, ../scss/_overrides.scss */
+/* line 168, ../scss/_overrides.scss */
 .benefits h2 {
   color: white;
 }
-/* line 140, ../scss/_overrides.scss */
+/* line 171, ../scss/_overrides.scss */
 .benefits h4 {
   color: white;
   margin-bottom: 20px;
+  line-height: 1.3;
 }
-/* line 144, ../scss/_overrides.scss */
+/* line 176, ../scss/_overrides.scss */
 .benefits img {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 150, ../scss/_overrides.scss */
+/* line 182, ../scss/_overrides.scss */
 .impact {
   padding-top: 40px;
   background: url("../img/impact_image.png") no-repeat center center;
@@ -9967,27 +9974,27 @@ div.reason {
   height: 450px;
   color: white;
 }
-/* line 159, ../scss/_overrides.scss */
+/* line 191, ../scss/_overrides.scss */
 .impact h2 {
   color: white;
 }
 
-/* line 164, ../scss/_overrides.scss */
+/* line 196, ../scss/_overrides.scss */
 #footer-logo {
   margin-top: 20px;
 }
 
-/* line 169, ../scss/_overrides.scss */
+/* line 201, ../scss/_overrides.scss */
 .footer .row {
   margin-top: 20px;
 }
-/* line 172, ../scss/_overrides.scss */
+/* line 204, ../scss/_overrides.scss */
 .footer .row ul li {
   list-style-type: none;
   display: inline;
 }
 
-/* line 182, ../scss/_overrides.scss */
+/* line 214, ../scss/_overrides.scss */
 .campaign-hero {
   background: url("../img/camp-hero.png") no-repeat center center;
   -webkit-background-size: cover;
@@ -9999,11 +10006,11 @@ div.reason {
   height: 500px;
   color: white;
 }
-/* line 192, ../scss/_overrides.scss */
+/* line 224, ../scss/_overrides.scss */
 .campaign-hero h3 {
   color: white;
 }
-/* line 195, ../scss/_overrides.scss */
+/* line 227, ../scss/_overrides.scss */
 .campaign-hero p {
   font-family: "Gibson";
   font-size: 14pt;
@@ -10011,61 +10018,187 @@ div.reason {
   line-height: 18pt;
 }
 
-/* line 205, ../scss/_overrides.scss */
+/* line 237, ../scss/_overrides.scss */
 .camp-info-bar {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #EEEEEE;
+  background-color: #F7F7F7;
 }
-/* line 210, ../scss/_overrides.scss */
-.camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5 {
+/* line 242, ../scss/_overrides.scss */
+.camp-info-bar select {
+  margin-top: 1px;
+}
+/* line 245, ../scss/_overrides.scss */
+.camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5, .camp-info-bar h6 {
   margin: 0px;
+  font-weight: 600;
+  display: inline;
 }
-/* line 214, ../scss/_overrides.scss */
+/* line 251, ../scss/_overrides.scss */
+.camp-info-bar h6 {
+  font-size: 12pt;
+}
+/* line 254, ../scss/_overrides.scss */
 .camp-info-bar .goal {
   font-weight: 600;
 }
-/* line 217, ../scss/_overrides.scss */
+/* line 257, ../scss/_overrides.scss */
 .camp-info-bar .highlight-head {
   margin: 0;
 }
-/* line 224, ../scss/_overrides.scss */
+/* line 264, ../scss/_overrides.scss */
 .camp-info-bar .highlight-box {
   margin-top: 25px;
 }
-/* line 226, ../scss/_overrides.scss */
+/* line 266, ../scss/_overrides.scss */
 .camp-info-bar .highlight-box h2 {
   color: white;
 }
-/* line 230, ../scss/_overrides.scss */
+/* line 272, ../scss/_overrides.scss */
+.camp-info-bar .days-remaining p {
+  font-size: 12pt;
+  line-height: 12pt;
+}
+/* line 277, ../scss/_overrides.scss */
 .camp-info-bar p {
   font-family: "Gibson";
 }
 
-/* line 235, ../scss/_overrides.scss */
-.comment {
-  margin-top: 10px;
-  .margin-bottom: 5px;
-}
-
-/* line 240, ../scss/_overrides.scss */
+/* line 282, ../scss/_overrides.scss */
 div.selection-box {
   border-left: 1px solid #3EB449;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 246, ../scss/_overrides.scss */
+/* line 288, ../scss/_overrides.scss */
 .org-side-bar {
   background-color: #FDFFD7;
 }
 
-/* line 250, ../scss/_overrides.scss */
+/* line 292, ../scss/_overrides.scss */
 div.seed-donation-side {
   border: 1px solid black;
 }
 
-/* line 254, ../scss/_overrides.scss */
+/* line 296, ../scss/_overrides.scss */
 .links ul li {
   display: inline;
+}
+
+/* line 302, ../scss/_overrides.scss */
+.feed-item-comment {
+  background: #D8D8D8;
+  margin-bottom: 20px;
+}
+/* line 31, ../scss/_overrides.scss */
+.feed-item-comment img {
+  margin: 10px;
+}
+/* line 34, ../scss/_overrides.scss */
+.feed-item-comment h4 {
+  margin-top: 20px;
+}
+/* line 37, ../scss/_overrides.scss */
+.feed-item-comment h5 {
+  margin-right: 10px;
+  margin-top: 25px;
+}
+/* line 42, ../scss/_overrides.scss */
+.feed-item-comment h6 {
+  margin-top: 10px;
+}
+/* line 45, ../scss/_overrides.scss */
+.feed-item-comment .days {
+  margin-top: 25px;
+  margin-right: 10px;
+}
+/* line 50, ../scss/_overrides.scss */
+.feed-item-comment a {
+  font-family: "Gibson";
+  margin-right: 10px;
+}
+/* line 54, ../scss/_overrides.scss */
+.feed-item-comment p {
+  margin: 0px 10px 0px 10px;
+}
+
+/* line 306, ../scss/_overrides.scss */
+.feed-item-donation {
+  background: #87D37C;
+  margin-bottom: 20px;
+}
+/* line 31, ../scss/_overrides.scss */
+.feed-item-donation img {
+  margin: 10px;
+}
+/* line 34, ../scss/_overrides.scss */
+.feed-item-donation h4 {
+  margin-top: 20px;
+}
+/* line 37, ../scss/_overrides.scss */
+.feed-item-donation h5 {
+  margin-right: 10px;
+  margin-top: 25px;
+}
+/* line 42, ../scss/_overrides.scss */
+.feed-item-donation h6 {
+  margin-top: 10px;
+}
+/* line 45, ../scss/_overrides.scss */
+.feed-item-donation .days {
+  margin-top: 25px;
+  margin-right: 10px;
+}
+/* line 50, ../scss/_overrides.scss */
+.feed-item-donation a {
+  font-family: "Gibson";
+  margin-right: 10px;
+}
+/* line 54, ../scss/_overrides.scss */
+.feed-item-donation p {
+  margin: 0px 10px 0px 10px;
+}
+
+/* line 310, ../scss/_overrides.scss */
+.feed-item-update {
+  background: #FDFFD7;
+  margin-bottom: 20px;
+}
+/* line 31, ../scss/_overrides.scss */
+.feed-item-update img {
+  margin: 10px;
+}
+/* line 34, ../scss/_overrides.scss */
+.feed-item-update h4 {
+  margin-top: 20px;
+}
+/* line 37, ../scss/_overrides.scss */
+.feed-item-update h5 {
+  margin-right: 10px;
+  margin-top: 25px;
+}
+/* line 42, ../scss/_overrides.scss */
+.feed-item-update h6 {
+  margin-top: 10px;
+}
+/* line 45, ../scss/_overrides.scss */
+.feed-item-update .days {
+  margin-top: 25px;
+  margin-right: 10px;
+}
+/* line 50, ../scss/_overrides.scss */
+.feed-item-update a {
+  font-family: "Gibson";
+  margin-right: 10px;
+}
+/* line 54, ../scss/_overrides.scss */
+.feed-item-update p {
+  margin: 0px 10px 0px 10px;
+}
+
+/* line 314, ../scss/_overrides.scss */
+.comment {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }

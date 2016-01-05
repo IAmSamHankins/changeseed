@@ -25,6 +25,37 @@
   font-weight: 400;
 }
 
+@mixin feed-item-styles($color) {
+  background: $color;
+  margin-bottom: 20px;
+  img {
+    margin: 10px;
+  }
+  h4 {
+    margin-top: 20px;
+  }
+  h5 {
+    margin-right: 10px;
+    margin-top: 25px;
+  }
+
+  h6{
+    margin-top: 10px;
+  }
+  .days {
+    @extend %main-font-light;
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+  a {
+    font-family: $main-font;
+    margin-right: 10px;
+  }
+  p {
+      margin: 0px 10px 0px 10px;
+  }
+}
+
 // Landing Page
 
 .highlight-box {
@@ -63,8 +94,8 @@ p {
   }
 }
 
-.hero { 
-    background: url("../img/landing_hero.jpg") no-repeat center center; 
+.hero {
+    background: url("../img/landing_hero.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -130,7 +161,7 @@ div.reason {
 .benefits {
  margin-top: 20px;
   background-color: #40A9DF;
- 
+
   p {
     color: white;
   }
@@ -140,6 +171,7 @@ div.reason {
   h4 {
     color: white;
     margin-bottom: 20px;
+    line-height: 1.3;
   }
   img {
     margin-bottom: 20px;
@@ -147,9 +179,9 @@ div.reason {
   }
 }
 
-.impact { 
+.impact {
     padding-top: 40px;
-    background: url("../img/impact_image.png") no-repeat center center; 
+    background: url("../img/impact_image.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -179,8 +211,8 @@ div.reason {
 
   //Campaign Page
 
-.campaign-hero { 
-    background: url("../img/camp-hero.png") no-repeat center center; 
+.campaign-hero {
+    background: url("../img/camp-hero.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -205,11 +237,19 @@ div.reason {
 .camp-info-bar {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: $smoke;
+  background-color: $light-gray;
 
-  h2, h3, h4, h5{
+  select {
+    margin-top: 1px;
+  }
+  h2, h3, h4, h5, h6{
     margin: 0px;
     @extend %main-font;
+    font-weight: 600;
+    display: inline;
+  }
+  h6 {
+    font-size: 12pt;
   }
   .goal{
     font-weight: 600;
@@ -227,14 +267,16 @@ div.reason {
       color: white;
     }
   }
+  .days-remaining {
+    @extend %main-font-light;
+    p {
+      font-size: 12pt;
+      line-height: 12pt;
+    }
+  }
   p{
     font-family: $main-font;
   }
-}
-
-.comment {
-  margin-top: 10px;
-  .margin-bottom: 5px;
 }
 
 div.selection-box {
@@ -244,7 +286,7 @@ div.selection-box {
 }
 
 .org-side-bar {
-  background-color: #FDFFD7;
+  background-color: $light-yellow;
 }
 
 div.seed-donation-side {
@@ -253,4 +295,23 @@ div.seed-donation-side {
 
 .links ul li {
   display: inline;
+}
+
+// Comment Tab
+
+.feed-item-comment {
+  @include feed-item-styles($gray);
+}
+
+.feed-item-donation {
+  @include feed-item-styles($light-green);
+}
+
+.feed-item-update {
+  @include feed-item-styles($light-yellow);
+}
+
+.comment {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
