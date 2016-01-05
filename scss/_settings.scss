@@ -117,7 +117,7 @@ $font-weight-bold: 600;
 
 $brand-green    : #3EB449;
 $brand-blue     : #40A9DF;
-$light-green    : #87D37C;
+$light-green    : #87D37C ;
 $white          : #FFFFFF;
 $gray           : #D8D8D8;
 $light-gray     : #F7F7F7;
@@ -1308,7 +1308,7 @@ $reveal-max-width: 50%;
 
 // These control the background color for the table and even rows
 // $table-bg: $white;
-$table-even-row-bg: $light-green;
+$table-even-row-bg: lighten($light-green, 25%);
 
 // These control the table cell border style
 // $table-border-style: solid;
@@ -1316,7 +1316,7 @@ $table-even-row-bg: $light-green;
 // $table-border-color: $gainsboro;
 
 // These control the table head styles
-$table-head-bg: $brand-green;
+$table-head-bg: $light-green;
 // $table-head-font-size: rem-calc(14);
 $table-head-font-color: white;
 $table-head-font-weight: 400;

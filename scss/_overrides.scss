@@ -95,7 +95,7 @@ p {
 }
 
 .hero {
-    background: url("../img/landing_hero.jpg") no-repeat center center;
+    background: url("../img/landing_hero.jpg") center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -127,6 +127,8 @@ p {
   }
   img {
     margin-bottom: 10px;
+    display: block;
+    margin: 0 auto 0 auto;
   }
   .camp-title {
     font-weight: 600;
@@ -290,7 +292,7 @@ div.selection-box {
 }
 
 div.seed-donation-side {
-  border: 1px solid black;
+  border: .5px solid black;
 }
 
 .links ul li {
