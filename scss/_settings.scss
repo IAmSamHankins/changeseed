@@ -715,7 +715,7 @@ $input-border-width: .5px;
 // $input-transition-fade-timing-function: linear;
 
 // Select variables
-// $select-bg-color: $ghost;
+$select-bg-color: $gray;
 // $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%);
 
 
@@ -1351,7 +1351,7 @@ $table-head-font-weight: 400;
 // $include-html-tabs-classes: $include-html-classes;
 
 // $tabs-navigation-padding: rem-calc(16);
-$tabs-navigation-bg-color: $brand-green;
+$tabs-navigation-bg-color: $brand-blue;
 // $tabs-navigation-active-bg-color: $white;
 $tabs-navigation-hover-bg-color: scale-color($tabs-navigation-bg-color, $lightness: -6%);
 $tabs-navigation-font-color: white;

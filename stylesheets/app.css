@@ -4375,7 +4375,7 @@ textarea {
 select {
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
-  background-color: #FAFAFA;
+  background-color: #D8D8D8;
   border-radius: 0;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+");
   background-position: 100% center;
@@ -4401,7 +4401,7 @@ select.radius {
 }
 /* line 359, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 select:focus {
-  background-color: #f3f3f3;
+  background-color: #d2d2d2;
   border-color: #999999;
 }
 /* line 364, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -6686,7 +6686,7 @@ table tr td {
 .tabs dd > a,
 .tabs .tab-title > a {
   display: block;
-  background-color: #3EB449;
+  background-color: #40A9DF;
   color: white;
   font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
@@ -6695,13 +6695,13 @@ table tr td {
 /* line 50, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
 .tabs dd > a:hover,
 .tabs .tab-title > a:hover {
-  background-color: #3aa945;
+  background-color: #31a2dd;
 }
 /* line 55, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
 .tabs dd.active > a,
 .tabs .tab-title.active > a {
   background-color: #FFFFFF;
-  color: #3EB449;
+  color: #40A9DF;
 }
 /* line 64, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
 .tabs.radius dd:first-child a,
@@ -9984,9 +9984,10 @@ div.reason {
 /* line 172, ../scss/_overrides.scss */
 .footer .row ul li {
   list-style-type: none;
+  display: inline;
 }
 
-/* line 181, ../scss/_overrides.scss */
+/* line 182, ../scss/_overrides.scss */
 .campaign-hero {
   background: url("../img/camp-hero.png") no-repeat center center;
   -webkit-background-size: cover;
@@ -9998,11 +9999,11 @@ div.reason {
   height: 500px;
   color: white;
 }
-/* line 191, ../scss/_overrides.scss */
+/* line 192, ../scss/_overrides.scss */
 .campaign-hero h3 {
   color: white;
 }
-/* line 194, ../scss/_overrides.scss */
+/* line 195, ../scss/_overrides.scss */
 .campaign-hero p {
   font-family: "Gibson";
   font-size: 14pt;
@@ -10010,52 +10011,61 @@ div.reason {
   line-height: 18pt;
 }
 
-/* line 204, ../scss/_overrides.scss */
+/* line 205, ../scss/_overrides.scss */
 .camp-info-bar {
-  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #EEEEEE;
 }
-/* line 206, ../scss/_overrides.scss */
+/* line 210, ../scss/_overrides.scss */
 .camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5 {
   margin: 0px;
 }
-/* line 210, ../scss/_overrides.scss */
+/* line 214, ../scss/_overrides.scss */
 .camp-info-bar .goal {
   font-weight: 600;
 }
-/* line 213, ../scss/_overrides.scss */
+/* line 217, ../scss/_overrides.scss */
 .camp-info-bar .highlight-head {
   margin: 0;
 }
-/* line 220, ../scss/_overrides.scss */
+/* line 224, ../scss/_overrides.scss */
 .camp-info-bar .highlight-box {
   margin-top: 25px;
 }
-/* line 222, ../scss/_overrides.scss */
+/* line 226, ../scss/_overrides.scss */
 .camp-info-bar .highlight-box h2 {
   color: white;
 }
-/* line 226, ../scss/_overrides.scss */
+/* line 230, ../scss/_overrides.scss */
 .camp-info-bar p {
   font-family: "Gibson";
 }
 
-/* line 231, ../scss/_overrides.scss */
+/* line 235, ../scss/_overrides.scss */
 .comment {
   margin-top: 10px;
   .margin-bottom: 5px;
 }
 
-/* line 236, ../scss/_overrides.scss */
+/* line 240, ../scss/_overrides.scss */
 div.selection-box {
-  border: 0.5px solid #3EB449;
+  border-left: 1px solid #3EB449;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-/* line 240, ../scss/_overrides.scss */
+/* line 246, ../scss/_overrides.scss */
 .org-side-bar {
   background-color: #FDFFD7;
 }
 
-/* line 244, ../scss/_overrides.scss */
+/* line 250, ../scss/_overrides.scss */
 div.seed-donation-side {
-  border: .5px solid black;
+  border: 1px solid black;
+}
+
+/* line 254, ../scss/_overrides.scss */
+.links ul li {
+  display: inline;
 }

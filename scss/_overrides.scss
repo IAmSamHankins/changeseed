@@ -171,6 +171,7 @@ div.reason {
     ul{
       li{
         list-style-type: none;
+        display: inline;
       }
     }
     }
@@ -202,7 +203,10 @@ div.reason {
 // campaign page
 
 .camp-info-bar {
-  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: $smoke;
+
   h2, h3, h4, h5{
     margin: 0px;
     @extend %main-font;
@@ -234,7 +238,9 @@ div.reason {
 }
 
 div.selection-box {
-  border: .5px solid $brand-green;
+  border-left: 1px solid $brand-green;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .org-side-bar {
@@ -242,5 +248,9 @@ div.selection-box {
 }
 
 div.seed-donation-side {
-  border: .5px solid black;
+  border: 1px solid black;
+}
+
+.links ul li {
+  display: inline;
 }
