@@ -10291,8 +10291,24 @@ ul.thumb-list li {
   list-style-type: none;
 }
 
+/* line 380, ../scss/_overrides.scss */
+.camp-create-nav {
+  border-bottom: 1px solid black;
+}
+
 /* line 388, ../scss/_overrides.scss */
 textarea.required {
   height: 150px;
   border-left: 5px solid #3EB449;
+}
+
+/* line 393, ../scss/_overrides.scss */
+.need-calc {
+  background-color: #FDFFD7;
+  padding: 20px;
+}
+
+/* line 398, ../scss/_overrides.scss */
+.create-camp-content {
+  margin-top: 30px;
 }
