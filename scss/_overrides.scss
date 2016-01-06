@@ -89,9 +89,10 @@ p {
   p {
     font-family: $main-font;
   }
-  .required {
+}
+
+input.required{
     border-left: 5px solid $brand-green;
-  }
 }
 
 .hero {
@@ -162,7 +163,7 @@ div.reason {
 
 .benefits {
  margin-top: 20px;
-  background-color: #40A9DF;
+ background-color: $brand-blue;
 
   p {
     color: white;
@@ -205,7 +206,6 @@ div.reason {
     ul{
       li{
         list-style-type: none;
-        display: inline;
       }
     }
     }
@@ -295,9 +295,7 @@ div.seed-donation-side {
   border: .5px solid black;
 }
 
-.links ul li {
-  display: inline;
-}
+
 
 // Comment Tab
 
@@ -316,4 +314,69 @@ div.seed-donation-side {
 .comment {
   margin-top: 10px;
   margin-bottom: 5px;
+}
+
+// Campaign Creation
+.create-campaign-progress {
+  background-color: $gray;
+  height: 55px;
+  p{
+    @extend %main-font-light-white;
+    margin-top: 15px;
+    margin-bottom: 12px;
+  }
+  .step{
+    background-color: $brand-blue;
+  }
+}
+
+.button-white {
+  background-color: $white;
+  color: $brand-blue;
+  font-weight: 400;
+}
+
+.not-selected {
+  @include button($padding: 10, $bg: $gray);
+  height: 120px;
+  width: 120px;
+  padding-top: 45px;
+  color: white;
+  margin-right: 10px;
+}
+
+.campaign-form {
+  li {
+    display: inline;
+    list-style-type: none;
+    margin-left:0;
+  }
+}
+
+.upload-box {
+  border: 2px dashed black;
+  height: 150px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.thumb {
+  border: 2px dashed black;
+  width: 25%;
+  height: 75px;
+  margin: 10px;
+}
+
+ul.thumb-list {
+  li {
+  display: inline;
+  }
+}
+
+.name {
+  list-style-type: none;
+}
+
+.camp-create-nav {
+  border-bottom: 1px solid black;
 }

@@ -3947,7 +3947,7 @@ button::-moz-focus-inner {
 }
 /* line 63, ../bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button::after, button.dropdown::after {
-  border-color: #FFFFFF transparent transparent transparent;
+  border-color: #40A9DF transparent transparent transparent;
   border-style: solid;
   content: "";
   display: block;
@@ -3964,7 +3964,7 @@ button::-moz-focus-inner {
 }
 /* line 117, ../bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button::after, button.dropdown::after {
-  border-color: #FFFFFF transparent transparent transparent;
+  border-color: #40A9DF transparent transparent transparent;
 }
 /* line 124, ../bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button.tiny, button.dropdown.tiny {
@@ -3978,7 +3978,7 @@ button::-moz-focus-inner {
 }
 /* line 117, ../bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button.tiny::after, button.dropdown.tiny::after {
-  border-color: #FFFFFF transparent transparent transparent;
+  border-color: #40A9DF transparent transparent transparent;
 }
 /* line 125, ../bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button.small, button.dropdown.small {
@@ -3992,7 +3992,7 @@ button::-moz-focus-inner {
 }
 /* line 117, ../bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button.small::after, button.dropdown.small::after {
-  border-color: #FFFFFF transparent transparent transparent;
+  border-color: #40A9DF transparent transparent transparent;
 }
 /* line 126, ../bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button.large, button.dropdown.large {
@@ -4006,7 +4006,7 @@ button::-moz-focus-inner {
 }
 /* line 117, ../bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button.large::after, button.dropdown.large::after {
-  border-color: #FFFFFF transparent transparent transparent;
+  border-color: #40A9DF transparent transparent transparent;
 }
 /* line 127, ../bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button.secondary:after, button.dropdown.secondary:after {
@@ -9814,7 +9814,7 @@ th.hide-for-touch {
 }
 
 /* line 17, ../scss/_overrides.scss */
-.camp-info-bar .highlight-unit {
+.camp-info-bar .highlight-unit, .create-campaign-progress p {
   font-family: "Gibson";
   font-weight: 300;
   color: white;
@@ -9858,12 +9858,13 @@ p {
 #sign-in-modal p, #sign-up-modal p {
   font-family: "Gibson";
 }
-/* line 92, ../scss/_overrides.scss */
-#sign-in-modal .required, #sign-up-modal .required {
+
+/* line 94, ../scss/_overrides.scss */
+input.required {
   border-left: 5px solid #3EB449;
 }
 
-/* line 97, ../scss/_overrides.scss */
+/* line 98, ../scss/_overrides.scss */
 .hero {
   background: url("../img/landing_hero.jpg") center center no-repeat;
   -webkit-background-size: cover;
@@ -9875,97 +9876,97 @@ p {
   height: 450px;
   color: white;
 }
-/* line 107, ../scss/_overrides.scss */
+/* line 108, ../scss/_overrides.scss */
 .hero h1 {
   color: white;
   vertical-align: middle;
 }
 
-/* line 114, ../scss/_overrides.scss */
+/* line 115, ../scss/_overrides.scss */
 .landing-campaign h1, .landing-campaign h2, .landing-campaign h3, .landing-campaign h4, .landing-campaign h5 {
   margin: 0px;
   font-family: "Gibson";
 }
-/* line 118, ../scss/_overrides.scss */
+/* line 119, ../scss/_overrides.scss */
 .landing-campaign .org_name {
   font-weight: 200;
   font-size: 14pt;
   line-height: 1.2;
   margin-bottom: 5px;
 }
-/* line 124, ../scss/_overrides.scss */
+/* line 125, ../scss/_overrides.scss */
 .landing-campaign p {
   margin-bottom: 0px;
   font-family: "Gibson";
 }
-/* line 128, ../scss/_overrides.scss */
+/* line 129, ../scss/_overrides.scss */
 .landing-campaign img {
   margin-bottom: 10px;
   display: block;
   margin: 0 auto 0 auto;
 }
-/* line 133, ../scss/_overrides.scss */
+/* line 134, ../scss/_overrides.scss */
 .landing-campaign .camp-title {
   font-weight: 600;
   font-size: 14pt;
   line-height: 1.2;
   margin-bottom: 10px;
 }
-/* line 139, ../scss/_overrides.scss */
+/* line 140, ../scss/_overrides.scss */
 .landing-campaign .highlight-head {
   font-weight: 600;
 }
-/* line 142, ../scss/_overrides.scss */
+/* line 143, ../scss/_overrides.scss */
 .landing-campaign .highlight-unit {
   font-weight: 400;
 }
-/* line 145, ../scss/_overrides.scss */
+/* line 146, ../scss/_overrides.scss */
 .landing-campaign h5 {
   margin-top: 10px;
   font-weight: 200;
 }
-/* line 149, ../scss/_overrides.scss */
+/* line 150, ../scss/_overrides.scss */
 .landing-campaign .progress {
   margin-bottom: 5px;
 }
 
-/* line 154, ../scss/_overrides.scss */
+/* line 155, ../scss/_overrides.scss */
 .featured {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 159, ../scss/_overrides.scss */
+/* line 160, ../scss/_overrides.scss */
 div.reason {
   border: .5px solid white;
 }
 
-/* line 163, ../scss/_overrides.scss */
+/* line 164, ../scss/_overrides.scss */
 .benefits {
   margin-top: 20px;
   background-color: #40A9DF;
 }
-/* line 167, ../scss/_overrides.scss */
+/* line 168, ../scss/_overrides.scss */
 .benefits p {
   color: white;
 }
-/* line 170, ../scss/_overrides.scss */
+/* line 171, ../scss/_overrides.scss */
 .benefits h2 {
   color: white;
 }
-/* line 173, ../scss/_overrides.scss */
+/* line 174, ../scss/_overrides.scss */
 .benefits h4 {
   color: white;
   margin-bottom: 20px;
   line-height: 1.3;
 }
-/* line 178, ../scss/_overrides.scss */
+/* line 179, ../scss/_overrides.scss */
 .benefits img {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 184, ../scss/_overrides.scss */
+/* line 185, ../scss/_overrides.scss */
 .impact {
   padding-top: 40px;
   background: url("../img/impact_image.png") no-repeat center center;
@@ -9976,24 +9977,23 @@ div.reason {
   height: 450px;
   color: white;
 }
-/* line 193, ../scss/_overrides.scss */
+/* line 194, ../scss/_overrides.scss */
 .impact h2 {
   color: white;
 }
 
-/* line 198, ../scss/_overrides.scss */
+/* line 199, ../scss/_overrides.scss */
 #footer-logo {
   margin-top: 20px;
 }
 
-/* line 203, ../scss/_overrides.scss */
+/* line 204, ../scss/_overrides.scss */
 .footer .row {
   margin-top: 20px;
 }
-/* line 206, ../scss/_overrides.scss */
+/* line 207, ../scss/_overrides.scss */
 .footer .row ul li {
   list-style-type: none;
-  display: inline;
 }
 
 /* line 216, ../scss/_overrides.scss */
@@ -10083,12 +10083,7 @@ div.seed-donation-side {
   border: .5px solid black;
 }
 
-/* line 298, ../scss/_overrides.scss */
-.links ul li {
-  display: inline;
-}
-
-/* line 304, ../scss/_overrides.scss */
+/* line 302, ../scss/_overrides.scss */
 .feed-item-comment {
   background: #D8D8D8;
   margin-bottom: 20px;
@@ -10125,7 +10120,7 @@ div.seed-donation-side {
   margin: 0px 10px 0px 10px;
 }
 
-/* line 308, ../scss/_overrides.scss */
+/* line 306, ../scss/_overrides.scss */
 .feed-item-donation {
   background: #87D37C;
   margin-bottom: 20px;
@@ -10162,7 +10157,7 @@ div.seed-donation-side {
   margin: 0px 10px 0px 10px;
 }
 
-/* line 312, ../scss/_overrides.scss */
+/* line 310, ../scss/_overrides.scss */
 .feed-item-update {
   background: #FDFFD7;
   margin-bottom: 20px;
@@ -10199,8 +10194,104 @@ div.seed-donation-side {
   margin: 0px 10px 0px 10px;
 }
 
-/* line 316, ../scss/_overrides.scss */
+/* line 314, ../scss/_overrides.scss */
 .comment {
   margin-top: 10px;
   margin-bottom: 5px;
+}
+
+/* line 320, ../scss/_overrides.scss */
+.create-campaign-progress {
+  background-color: #D8D8D8;
+  height: 55px;
+}
+/* line 323, ../scss/_overrides.scss */
+.create-campaign-progress p {
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+/* line 328, ../scss/_overrides.scss */
+.create-campaign-progress .step {
+  background-color: #40A9DF;
+}
+
+/* line 333, ../scss/_overrides.scss */
+.button-white {
+  background-color: #FFFFFF;
+  color: #40A9DF;
+  font-weight: 400;
+}
+
+/* line 339, ../scss/_overrides.scss */
+.not-selected {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10 20 10.0625rem 20;
+  background-color: #D8D8D8;
+  border-color: #adadad;
+  color: #333333;
+  transition: background-color 300ms ease-out;
+  height: 120px;
+  width: 120px;
+  padding-top: 45px;
+  color: white;
+  margin-right: 10px;
+}
+/* line 163, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+.not-selected:hover, .not-selected:focus {
+  background-color: #adadad;
+}
+/* line 169, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+.not-selected:hover, .not-selected:focus {
+  color: #FFFFFF;
+}
+
+/* line 349, ../scss/_overrides.scss */
+.campaign-form li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+/* line 356, ../scss/_overrides.scss */
+.upload-box {
+  border: 2px dashed black;
+  height: 150px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 363, ../scss/_overrides.scss */
+.thumb {
+  border: 2px dashed black;
+  width: 25%;
+  height: 75px;
+  margin: 10px;
+}
+
+/* line 371, ../scss/_overrides.scss */
+ul.thumb-list li {
+  display: inline;
+}
+
+/* line 376, ../scss/_overrides.scss */
+.name {
+  list-style-type: none;
+}
+
+/* line 380, ../scss/_overrides.scss */
+.camp-create-nav {
+  border-bottom: 1px solid black;
 }
