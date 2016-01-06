@@ -7075,7 +7075,7 @@ meta.foundation-mq-topbar {
   margin-top: -8px;
   top: 50%;
   right: 1.04167rem;
-  box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+  box-shadow: 0 0 0 1px #3EB449, 0 7px 0 1px #3EB449, 0 14px 0 1px #3EB449;
   width: 16px;
 }
 /* line 229, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -10214,15 +10214,19 @@ div.seed-donation-side {
 .create-campaign-progress .step {
   background-color: #40A9DF;
 }
+/* line 331, ../scss/_overrides.scss */
+.create-campaign-progress .not-done {
+  background-color: #D8D8D8;
+}
 
-/* line 333, ../scss/_overrides.scss */
+/* line 336, ../scss/_overrides.scss */
 .button-white {
   background-color: #FFFFFF;
   color: #40A9DF;
   font-weight: 400;
 }
 
-/* line 339, ../scss/_overrides.scss */
+/* line 342, ../scss/_overrides.scss */
 .not-selected {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -10258,14 +10262,14 @@ div.seed-donation-side {
   color: #FFFFFF;
 }
 
-/* line 349, ../scss/_overrides.scss */
+/* line 352, ../scss/_overrides.scss */
 .campaign-form li {
   display: inline;
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 356, ../scss/_overrides.scss */
+/* line 359, ../scss/_overrides.scss */
 .upload-box {
   border: 2px dashed black;
   height: 150px;
@@ -10273,7 +10277,7 @@ div.seed-donation-side {
   margin-bottom: 20px;
 }
 
-/* line 363, ../scss/_overrides.scss */
+/* line 366, ../scss/_overrides.scss */
 .thumb {
   border: 2px dashed black;
   width: 25%;
@@ -10281,34 +10285,34 @@ div.seed-donation-side {
   margin: 10px;
 }
 
-/* line 371, ../scss/_overrides.scss */
+/* line 374, ../scss/_overrides.scss */
 ul.thumb-list li {
   display: inline;
 }
 
-/* line 376, ../scss/_overrides.scss */
+/* line 379, ../scss/_overrides.scss */
 .name {
   list-style-type: none;
 }
 
-/* line 380, ../scss/_overrides.scss */
+/* line 383, ../scss/_overrides.scss */
 .camp-create-nav {
   border-bottom: 1px solid black;
 }
 
-/* line 388, ../scss/_overrides.scss */
+/* line 391, ../scss/_overrides.scss */
 textarea.required {
   height: 150px;
   border-left: 5px solid #3EB449;
 }
 
-/* line 393, ../scss/_overrides.scss */
+/* line 396, ../scss/_overrides.scss */
 .need-calc {
   background-color: #FDFFD7;
   padding: 20px;
 }
 
-/* line 398, ../scss/_overrides.scss */
+/* line 401, ../scss/_overrides.scss */
 .create-camp-content {
   margin-top: 30px;
 }
