@@ -10290,3 +10290,9 @@ ul.thumb-list li {
 .name {
   list-style-type: none;
 }
+
+/* line 388, ../scss/_overrides.scss */
+textarea.required {
+  height: 150px;
+  border-left: 5px solid #3EB449;
+}
