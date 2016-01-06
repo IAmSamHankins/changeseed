@@ -10290,8 +10290,3 @@ ul.thumb-list li {
 .name {
   list-style-type: none;
 }
-
-/* line 380, ../scss/_overrides.scss */
-.camp-create-nav {
-  border-bottom: 1px solid black;
-}
