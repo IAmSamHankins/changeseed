@@ -401,3 +401,28 @@ textarea.required {
 .create-camp-content {
   margin-top: 30px;
 }
+
+.funds-receiver {
+  height: 150px;
+  background-color: lighten($brand-green, 30%);
+  text-align: center;
+  line-height: 150px;
+  color: white;
+  &:hover{
+    background-color: $brand-green;
+  }
+}
+
+#notifications-icon
+  img {
+    margin: 5px;
+  }
+
+#avatar {
+  padding-left: 10px;
+
+  img {
+    margin-left: 0px;
+    margin-top: -3px;
+  }
+}

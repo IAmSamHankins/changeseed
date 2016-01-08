@@ -202,22 +202,57 @@
 -->
 
 <!-- Campaign Form Start -->
-<div class="create-camp-content">
+<section class="create-camp-content">
 <div class="row">
   <div class="large-7 columns">
     <h3>Who will receive the donations?</h3>
     <p>Tell us who will receive the funds that are donated and the relevant account information for their deposit.</p><br/>
-    <a href="#">
-      <h4 class="funds-receiver">An Individual</h4>
-      <h4 class="funds-receiver">A Non-Profit</h4>
-      <h4 class="funds-receiver">A Business</h4>
-    </a>
+    <div class="row">
+      <div class="medium-4 columns">
+        <a href="#">
+          <h4 class="funds-receiver">An Individual</h4>
+        </a>
+      </div>
+      <div class="medium-4 columns">
+        <a href="#">
+          <h4 class="funds-receiver">A Non-Profit</h4>
+        </a>
+      </div>
+      <div class="medium-4 columns">
+        <a href="#">
+          <h4 class="funds-receiver">A Business</h4>
+        </a>
+      </div>
+    </div>
+    <form>
+      <h3>Account Information</h3>
+      <div class="row">
+        <div class="medium-6 columns">
+          <label>First Name</label>
+          <input type="text" class="campaign-input required"/>
+        </div>
+        <div class="medium-6 columns">
+          <label>Last Name</label>
+          <input type="text" class="campaign-input required"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-6 columns">
+            <label>Routing Number</label>
+            <input type="text" class="campaign-input required"/>
+        </div>
+        <div class="medium-6 columns">
+          <label>Account Number</label>
+          <input type="text" class="campaign-input required"/>
+        </div>
+      </div>
+    </form>
   </div>
   <div class="large-5 columns">
   </div>
 
 </div>
-</div>
+</section>
 <!-- Footer End -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>

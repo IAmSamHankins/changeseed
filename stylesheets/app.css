@@ -10316,3 +10316,32 @@ textarea.required {
 .create-camp-content {
   margin-top: 30px;
 }
+
+/* line 405, ../scss/_overrides.scss */
+.funds-receiver {
+  height: 150px;
+  background-color: #a9e2af;
+  text-align: center;
+  line-height: 150px;
+  color: white;
+}
+/* line 411, ../scss/_overrides.scss */
+.funds-receiver:hover {
+  background-color: #3EB449;
+}
+
+/* line 416, ../scss/_overrides.scss */
+#notifications-icon
+img {
+  margin: 5px;
+}
+
+/* line 421, ../scss/_overrides.scss */
+#avatar {
+  padding-left: 10px;
+}
+/* line 424, ../scss/_overrides.scss */
+#avatar img {
+  margin-left: 0px;
+  margin-top: -3px;
+}
