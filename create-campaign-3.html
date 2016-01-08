@@ -9,114 +9,43 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
+
+
   <body>
 <!-- Navigation Start -->
+<div class="contain-to-grid sticky">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <a href="index.html"><img src="img/logo.png"/></a>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
 
-  <div class="contain-to-grid sticky">
-    <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-        <li class="name">
-          <a href="index.html"><img src="img/logo.png"/></a>
-        </li>
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="has-form">
+        <div class="row collapse">
+          <div class="large-8 small-9 columns">
+            <input type="text" placeholder="Browse Campaigns">
+          </div>
+          <div class="large-4 small-3 columns">
+            <a href="#" class="alert button expand">Search</a>
+          </div>
+        </div>
+      </li>
+      <li><a href="#" id="notifications-icon"><img src="img/notifications.png" id="notifications-icon"></a>
+      <li><a href="#" id="avatar"><img src="img/avatar.png" >My Account</a></li>
+    </ul>
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#">Create</a></li>
+      <li><a href="#">Browse</a></li>
 
-    <section class="top-bar-section">
-      <!-- Right Nav Section -->
-      <ul class="right">
-        <li class="has-form">
-          <div class="row collapse">
-            <div class="large-8 small-9 columns">
-              <input type="text" placeholder="Browse Campaigns">
-            </div>
-            <div class="large-4 small-3 columns">
-              <a href="#" class="alert button expand">Search</a>
-            </div>
-          </div>
-        </li>
-        <li><a href="#" data-reveal-id="sign-in-modal">Sign In</a>
-          <div id="sign-in-modal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-            <div class="text-center">
-              <img src="img/logo.png"/>
-              <h4 id="modalTitle">Small Gifts. Huge Impacts.</h4>
-              <p class="lead">Sign in to your account.</p>
-              <form>
-                <div class="row">
-                  <div class="large-8 large-centered columns">
-                      <input type="text" class="modal-input required" placeholder="E-Mail Address" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="large-8 large-centered columns">
-                      <input type="text" class="modal-input required" placeholder="Password" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="large-8 large-centered columns">
-                    <a href="index.html" class="small expand button">Sign In</a>
-                  </div>
-                </div>
-              </form>
-              <p>No Account? No Problem! <a href="#" data-reveal-id="sign-up-modal">Create an Account.</a></p>
-            </div>
-            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-          </div>
-        </li>
-<!-- End Sign In Modal -->
-<!-- Start Sign Up Modal -->
-      <li class="active"><a href="#" data-reveal-id="sign-up-modal">Sign Up</a>
-          <div id="sign-up-modal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-            <div class="text-center">
-              <img src="img/logo.png"/>
-              <h4 id="modalTitle">Small Gifts. Huge Impacts.</h4>
-              <p class="lead">Start making a difference in just a few simple steps.</p>
-              <form>
-                <div class="row">
-                  <div class="large-8 large-centered columns">
-                      <input type="text" class="modal-input required" placeholder="First Name" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="large-8 large-centered columns">
-                      <input type="text" class="modal-input required" placeholder="Last Name" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="large-8 large-centered columns">
-                      <input type="text" class="modal-input" placeholder="Location" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="large-8 large-centered columns">
-                      <input type="text" class="modal-input required" placeholder="Email Address" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="large-8 large-centered columns">
-                      <input type="text" class="modal-input required" placeholder="Password" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="large-8 large-centered columns">
-                    <a href="index.html" class="small expand button">Create My Account</a>
-                  </div>
-                </div>
-              </form>
-              <p>Already have an account?<a href="#" data-reveal-id="sign-in-modal"> Sign-In Here</a></p>
-            </div>
-            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-          </div>
-        </li>
-<!-- End Sign Up Modal -->
-      </ul>
-      <!-- Left Nav Section -->
-      <ul class="left">
-        <li><a href="#">Create</a></li>
-        <li><a href="#">Browse</a></li>
-
-      </ul>
-    </section>
-  </nav>
+    </ul>
+  </section>
+</nav>
 </div>
 <!-- Navigation End -->
 
