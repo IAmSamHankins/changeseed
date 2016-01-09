@@ -9808,7 +9808,7 @@ th.hide-for-touch {
 }
 
 /* line 12, ../scss/_overrides.scss */
-.camp-info-bar .days-remaining, .feed-item-comment .days, .feed-item-donation .days, .feed-item-update .days {
+.camp-info-bar .days-remaining, .feed-item-comment .days, .feed-item-donation .days, .feed-item-update .days, .user-dash-info p {
   font-family: "Gibson";
   font-weight: 300;
 }
@@ -10344,4 +10344,31 @@ img {
 #avatar img {
   margin-left: 0px;
   margin-top: -3px;
+}
+
+/* line 430, ../scss/_overrides.scss */
+.user-dash-info {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+/* line 433, ../scss/_overrides.scss */
+.user-dash-info p {
+  line-height: 1.3;
+  color: gray;
+}
+/* line 438, ../scss/_overrides.scss */
+.user-dash-info h3 {
+  color: gray;
+  padding-top: 25px;
+}
+/* line 442, ../scss/_overrides.scss */
+.user-dash-info h5 {
+  margin-top: 10px;
+  color: #3EB449;
+  margin-bottom: 0px;
+}
+/* line 447, ../scss/_overrides.scss */
+.user-dash-info #user-location {
+  margin-top: 5px;
+  color: #3EB449;
 }

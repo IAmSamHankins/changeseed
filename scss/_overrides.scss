@@ -426,3 +426,26 @@ textarea.required {
     margin-top: -3px;
   }
 }
+
+.user-dash-info {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    p {
+        @extend %main-font-light;
+        line-height: 1.3;
+        color: gray;
+    }
+    h3 {
+        color: gray;
+        padding-top: 25px;
+    }
+    h5{
+        margin-top: 10px;
+        color: $brand-green;
+        margin-bottom: 0px;
+    }
+    #user-location{
+        margin-top: 5px;
+        color: $brand-green;
+    }
+}
