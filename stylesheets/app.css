@@ -10372,3 +10372,8 @@ img {
   margin-top: 5px;
   color: #3EB449;
 }
+
+/* line 454, ../scss/_overrides.scss */
+.dashboard p {
+  margin-bottom: 10px;
+}
