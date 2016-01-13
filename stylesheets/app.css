@@ -9800,6 +9800,12 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+/* line 1, ../scss/_overrides.scss */
+.active-campaigns h6 {
+  font-family: "Gibson";
+  font-weight: 600;
+}
+
 /* line 6, ../scss/_overrides.scss */
 .camp-info-bar .highlight-head {
   font-family: "Gibson";
@@ -9808,7 +9814,7 @@ th.hide-for-touch {
 }
 
 /* line 12, ../scss/_overrides.scss */
-.camp-info-bar .days-remaining, .feed-item-comment .days, .feed-item-donation .days, .feed-item-update .days, .user-dash-info p {
+.camp-info-bar .days-remaining, .feed-item-comment .days, .feed-item-donation .days, .feed-item-update .days, .user-dash-info p, .active-campaigns p, .donation-card p, .hollow-green, .hollow-blue {
   font-family: "Gibson";
   font-weight: 300;
 }
@@ -9821,50 +9827,50 @@ th.hide-for-touch {
 }
 
 /* line 23, ../scss/_overrides.scss */
-.camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5, .camp-info-bar h6 {
+.camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5, .camp-info-bar h6, .active-campaigns h5 {
   font-family: "Gibson";
   font-weight: 400;
 }
 
-/* line 61, ../scss/_overrides.scss */
+/* line 78, ../scss/_overrides.scss */
 .highlight-box {
   background-color: #87D37C;
   font-size: 14pt;
 }
 
-/* line 67, ../scss/_overrides.scss */
+/* line 84, ../scss/_overrides.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-/* line 71, ../scss/_overrides.scss */
+/* line 88, ../scss/_overrides.scss */
 .top-bar img {
   margin-right: 10px;
 }
 
-/* line 77, ../scss/_overrides.scss */
+/* line 94, ../scss/_overrides.scss */
 .top-bar img {
   margin-top: 0.4375rem;
   margin-left: 20px;
 }
 
-/* line 83, ../scss/_overrides.scss */
+/* line 100, ../scss/_overrides.scss */
 p {
   font-family: "Abril Text", serif;
   font-size: 12pt;
 }
 
-/* line 89, ../scss/_overrides.scss */
+/* line 106, ../scss/_overrides.scss */
 #sign-in-modal p, #sign-up-modal p {
   font-family: "Gibson";
 }
 
-/* line 94, ../scss/_overrides.scss */
+/* line 111, ../scss/_overrides.scss */
 input.required {
   border-left: 5px solid #3EB449;
 }
 
-/* line 98, ../scss/_overrides.scss */
+/* line 115, ../scss/_overrides.scss */
 .hero {
   background: url("../img/landing_hero.jpg") center center no-repeat;
   -webkit-background-size: cover;
@@ -9876,97 +9882,97 @@ input.required {
   height: 450px;
   color: white;
 }
-/* line 108, ../scss/_overrides.scss */
+/* line 125, ../scss/_overrides.scss */
 .hero h1 {
   color: white;
   vertical-align: middle;
 }
 
-/* line 115, ../scss/_overrides.scss */
+/* line 132, ../scss/_overrides.scss */
 .landing-campaign h1, .landing-campaign h2, .landing-campaign h3, .landing-campaign h4, .landing-campaign h5 {
   margin: 0px;
   font-family: "Gibson";
 }
-/* line 119, ../scss/_overrides.scss */
+/* line 136, ../scss/_overrides.scss */
 .landing-campaign .org_name {
   font-weight: 200;
   font-size: 14pt;
   line-height: 1.2;
   margin-bottom: 5px;
 }
-/* line 125, ../scss/_overrides.scss */
+/* line 142, ../scss/_overrides.scss */
 .landing-campaign p {
   margin-bottom: 0px;
   font-family: "Gibson";
 }
-/* line 129, ../scss/_overrides.scss */
+/* line 146, ../scss/_overrides.scss */
 .landing-campaign img {
   margin-bottom: 10px;
   display: block;
   margin: 0 auto 0 auto;
 }
-/* line 134, ../scss/_overrides.scss */
+/* line 151, ../scss/_overrides.scss */
 .landing-campaign .camp-title {
   font-weight: 600;
   font-size: 14pt;
   line-height: 1.2;
   margin-bottom: 10px;
 }
-/* line 140, ../scss/_overrides.scss */
+/* line 157, ../scss/_overrides.scss */
 .landing-campaign .highlight-head {
   font-weight: 600;
 }
-/* line 143, ../scss/_overrides.scss */
+/* line 160, ../scss/_overrides.scss */
 .landing-campaign .highlight-unit {
   font-weight: 400;
 }
-/* line 146, ../scss/_overrides.scss */
+/* line 163, ../scss/_overrides.scss */
 .landing-campaign h5 {
   margin-top: 10px;
   font-weight: 200;
 }
-/* line 150, ../scss/_overrides.scss */
+/* line 167, ../scss/_overrides.scss */
 .landing-campaign .progress {
   margin-bottom: 5px;
 }
 
-/* line 155, ../scss/_overrides.scss */
+/* line 172, ../scss/_overrides.scss */
 .featured {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 160, ../scss/_overrides.scss */
+/* line 177, ../scss/_overrides.scss */
 div.reason {
   border: .5px solid white;
 }
 
-/* line 164, ../scss/_overrides.scss */
+/* line 181, ../scss/_overrides.scss */
 .benefits {
   margin-top: 20px;
   background-color: #40A9DF;
 }
-/* line 168, ../scss/_overrides.scss */
+/* line 185, ../scss/_overrides.scss */
 .benefits p {
   color: white;
 }
-/* line 171, ../scss/_overrides.scss */
+/* line 188, ../scss/_overrides.scss */
 .benefits h2 {
   color: white;
 }
-/* line 174, ../scss/_overrides.scss */
+/* line 191, ../scss/_overrides.scss */
 .benefits h4 {
   color: white;
   margin-bottom: 20px;
   line-height: 1.3;
 }
-/* line 179, ../scss/_overrides.scss */
+/* line 196, ../scss/_overrides.scss */
 .benefits img {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 185, ../scss/_overrides.scss */
+/* line 202, ../scss/_overrides.scss */
 .impact {
   padding-top: 40px;
   background: url("../img/impact_image.png") no-repeat center center;
@@ -9977,26 +9983,31 @@ div.reason {
   height: 450px;
   color: white;
 }
-/* line 194, ../scss/_overrides.scss */
+/* line 211, ../scss/_overrides.scss */
 .impact h2 {
   color: white;
 }
 
-/* line 199, ../scss/_overrides.scss */
+/* line 216, ../scss/_overrides.scss */
 #footer-logo {
   margin-top: 20px;
 }
 
-/* line 204, ../scss/_overrides.scss */
+/* line 220, ../scss/_overrides.scss */
+.footer {
+  background-color: #4A4A4A;
+  color: whitesmoke;
+}
+/* line 223, ../scss/_overrides.scss */
 .footer .row {
   margin-top: 20px;
 }
-/* line 207, ../scss/_overrides.scss */
+/* line 226, ../scss/_overrides.scss */
 .footer .row ul li {
   list-style-type: none;
 }
 
-/* line 216, ../scss/_overrides.scss */
+/* line 236, ../scss/_overrides.scss */
 .campaign-hero {
   background: url("../img/camp-hero.png") no-repeat center center;
   -webkit-background-size: cover;
@@ -10008,11 +10019,11 @@ div.reason {
   height: 500px;
   color: white;
 }
-/* line 226, ../scss/_overrides.scss */
+/* line 246, ../scss/_overrides.scss */
 .campaign-hero h3 {
   color: white;
 }
-/* line 229, ../scss/_overrides.scss */
+/* line 249, ../scss/_overrides.scss */
 .campaign-hero p {
   font-family: "Gibson";
   font-size: 14pt;
@@ -10020,213 +10031,213 @@ div.reason {
   line-height: 18pt;
 }
 
-/* line 239, ../scss/_overrides.scss */
+/* line 259, ../scss/_overrides.scss */
 .camp-info-bar {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #F7F7F7;
 }
-/* line 244, ../scss/_overrides.scss */
+/* line 264, ../scss/_overrides.scss */
 .camp-info-bar select {
   margin-top: 1px;
 }
-/* line 247, ../scss/_overrides.scss */
+/* line 267, ../scss/_overrides.scss */
 .camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5, .camp-info-bar h6 {
   margin: 0px;
   font-weight: 600;
   display: inline;
 }
-/* line 253, ../scss/_overrides.scss */
+/* line 273, ../scss/_overrides.scss */
 .camp-info-bar h6 {
   font-size: 12pt;
 }
-/* line 256, ../scss/_overrides.scss */
+/* line 276, ../scss/_overrides.scss */
 .camp-info-bar .goal {
   font-weight: 600;
 }
-/* line 259, ../scss/_overrides.scss */
+/* line 279, ../scss/_overrides.scss */
 .camp-info-bar .highlight-head {
   margin: 0;
 }
-/* line 266, ../scss/_overrides.scss */
+/* line 286, ../scss/_overrides.scss */
 .camp-info-bar .highlight-box {
   margin-top: 25px;
 }
-/* line 268, ../scss/_overrides.scss */
+/* line 288, ../scss/_overrides.scss */
 .camp-info-bar .highlight-box h2 {
   color: white;
 }
-/* line 274, ../scss/_overrides.scss */
+/* line 294, ../scss/_overrides.scss */
 .camp-info-bar .days-remaining p {
   font-size: 12pt;
   line-height: 12pt;
 }
-/* line 279, ../scss/_overrides.scss */
+/* line 299, ../scss/_overrides.scss */
 .camp-info-bar p {
   font-family: "Gibson";
 }
 
-/* line 284, ../scss/_overrides.scss */
+/* line 304, ../scss/_overrides.scss */
 div.selection-box {
   border-left: 1px solid #3EB449;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 290, ../scss/_overrides.scss */
+/* line 310, ../scss/_overrides.scss */
 .org-side-bar {
   background-color: #FDFFD7;
 }
 
-/* line 294, ../scss/_overrides.scss */
+/* line 314, ../scss/_overrides.scss */
 div.seed-donation-side {
   border: .5px solid black;
 }
 
-/* line 302, ../scss/_overrides.scss */
+/* line 322, ../scss/_overrides.scss */
 .feed-item-comment {
   background: #D8D8D8;
   margin-bottom: 20px;
 }
-/* line 31, ../scss/_overrides.scss */
+/* line 48, ../scss/_overrides.scss */
 .feed-item-comment img {
   margin: 10px;
 }
-/* line 34, ../scss/_overrides.scss */
+/* line 51, ../scss/_overrides.scss */
 .feed-item-comment h4 {
   margin-top: 20px;
 }
-/* line 37, ../scss/_overrides.scss */
+/* line 54, ../scss/_overrides.scss */
 .feed-item-comment h5 {
   margin-right: 10px;
   margin-top: 25px;
 }
-/* line 42, ../scss/_overrides.scss */
+/* line 59, ../scss/_overrides.scss */
 .feed-item-comment h6 {
   margin-top: 10px;
 }
-/* line 45, ../scss/_overrides.scss */
+/* line 62, ../scss/_overrides.scss */
 .feed-item-comment .days {
   margin-top: 25px;
   margin-right: 10px;
 }
-/* line 50, ../scss/_overrides.scss */
+/* line 67, ../scss/_overrides.scss */
 .feed-item-comment a {
   font-family: "Gibson";
   margin-right: 10px;
 }
-/* line 54, ../scss/_overrides.scss */
+/* line 71, ../scss/_overrides.scss */
 .feed-item-comment p {
   margin: 0px 10px 0px 10px;
 }
 
-/* line 306, ../scss/_overrides.scss */
+/* line 326, ../scss/_overrides.scss */
 .feed-item-donation {
   background: #87D37C;
   margin-bottom: 20px;
 }
-/* line 31, ../scss/_overrides.scss */
+/* line 48, ../scss/_overrides.scss */
 .feed-item-donation img {
   margin: 10px;
 }
-/* line 34, ../scss/_overrides.scss */
+/* line 51, ../scss/_overrides.scss */
 .feed-item-donation h4 {
   margin-top: 20px;
 }
-/* line 37, ../scss/_overrides.scss */
+/* line 54, ../scss/_overrides.scss */
 .feed-item-donation h5 {
   margin-right: 10px;
   margin-top: 25px;
 }
-/* line 42, ../scss/_overrides.scss */
+/* line 59, ../scss/_overrides.scss */
 .feed-item-donation h6 {
   margin-top: 10px;
 }
-/* line 45, ../scss/_overrides.scss */
+/* line 62, ../scss/_overrides.scss */
 .feed-item-donation .days {
   margin-top: 25px;
   margin-right: 10px;
 }
-/* line 50, ../scss/_overrides.scss */
+/* line 67, ../scss/_overrides.scss */
 .feed-item-donation a {
   font-family: "Gibson";
   margin-right: 10px;
 }
-/* line 54, ../scss/_overrides.scss */
+/* line 71, ../scss/_overrides.scss */
 .feed-item-donation p {
   margin: 0px 10px 0px 10px;
 }
 
-/* line 310, ../scss/_overrides.scss */
+/* line 330, ../scss/_overrides.scss */
 .feed-item-update {
   background: #FDFFD7;
   margin-bottom: 20px;
 }
-/* line 31, ../scss/_overrides.scss */
+/* line 48, ../scss/_overrides.scss */
 .feed-item-update img {
   margin: 10px;
 }
-/* line 34, ../scss/_overrides.scss */
+/* line 51, ../scss/_overrides.scss */
 .feed-item-update h4 {
   margin-top: 20px;
 }
-/* line 37, ../scss/_overrides.scss */
+/* line 54, ../scss/_overrides.scss */
 .feed-item-update h5 {
   margin-right: 10px;
   margin-top: 25px;
 }
-/* line 42, ../scss/_overrides.scss */
+/* line 59, ../scss/_overrides.scss */
 .feed-item-update h6 {
   margin-top: 10px;
 }
-/* line 45, ../scss/_overrides.scss */
+/* line 62, ../scss/_overrides.scss */
 .feed-item-update .days {
   margin-top: 25px;
   margin-right: 10px;
 }
-/* line 50, ../scss/_overrides.scss */
+/* line 67, ../scss/_overrides.scss */
 .feed-item-update a {
   font-family: "Gibson";
   margin-right: 10px;
 }
-/* line 54, ../scss/_overrides.scss */
+/* line 71, ../scss/_overrides.scss */
 .feed-item-update p {
   margin: 0px 10px 0px 10px;
 }
 
-/* line 314, ../scss/_overrides.scss */
+/* line 334, ../scss/_overrides.scss */
 .comment {
   margin-top: 10px;
   margin-bottom: 5px;
 }
 
-/* line 320, ../scss/_overrides.scss */
+/* line 340, ../scss/_overrides.scss */
 .create-campaign-progress {
   background-color: #D8D8D8;
   height: 55px;
 }
-/* line 323, ../scss/_overrides.scss */
+/* line 343, ../scss/_overrides.scss */
 .create-campaign-progress p {
   margin-top: 15px;
   margin-bottom: 12px;
 }
-/* line 328, ../scss/_overrides.scss */
+/* line 348, ../scss/_overrides.scss */
 .create-campaign-progress .step {
   background-color: #40A9DF;
 }
-/* line 331, ../scss/_overrides.scss */
+/* line 351, ../scss/_overrides.scss */
 .create-campaign-progress .not-done {
   background-color: #D8D8D8;
 }
 
-/* line 336, ../scss/_overrides.scss */
+/* line 356, ../scss/_overrides.scss */
 .button-white {
   background-color: #FFFFFF;
   color: #40A9DF;
   font-weight: 400;
 }
 
-/* line 342, ../scss/_overrides.scss */
+/* line 362, ../scss/_overrides.scss */
 .not-selected {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -10262,14 +10273,14 @@ div.seed-donation-side {
   color: #FFFFFF;
 }
 
-/* line 352, ../scss/_overrides.scss */
+/* line 372, ../scss/_overrides.scss */
 .campaign-form li {
   display: inline;
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 359, ../scss/_overrides.scss */
+/* line 379, ../scss/_overrides.scss */
 .upload-box {
   border: 2px dashed black;
   height: 150px;
@@ -10277,7 +10288,7 @@ div.seed-donation-side {
   margin-bottom: 20px;
 }
 
-/* line 366, ../scss/_overrides.scss */
+/* line 386, ../scss/_overrides.scss */
 .thumb {
   border: 2px dashed black;
   width: 25%;
@@ -10285,39 +10296,39 @@ div.seed-donation-side {
   margin: 10px;
 }
 
-/* line 374, ../scss/_overrides.scss */
+/* line 394, ../scss/_overrides.scss */
 ul.thumb-list li {
   display: inline;
 }
 
-/* line 379, ../scss/_overrides.scss */
+/* line 399, ../scss/_overrides.scss */
 .name {
   list-style-type: none;
 }
 
-/* line 383, ../scss/_overrides.scss */
+/* line 403, ../scss/_overrides.scss */
 .camp-create-nav {
   border-bottom: 1px solid black;
 }
 
-/* line 391, ../scss/_overrides.scss */
+/* line 411, ../scss/_overrides.scss */
 textarea.required {
   height: 150px;
   border-left: 5px solid #3EB449;
 }
 
-/* line 396, ../scss/_overrides.scss */
+/* line 416, ../scss/_overrides.scss */
 .need-calc {
   background-color: #FDFFD7;
   padding: 20px;
 }
 
-/* line 401, ../scss/_overrides.scss */
+/* line 421, ../scss/_overrides.scss */
 .create-camp-content {
   margin-top: 30px;
 }
 
-/* line 405, ../scss/_overrides.scss */
+/* line 425, ../scss/_overrides.scss */
 .funds-receiver {
   height: 150px;
   background-color: #a9e2af;
@@ -10325,55 +10336,151 @@ textarea.required {
   line-height: 150px;
   color: white;
 }
-/* line 411, ../scss/_overrides.scss */
+/* line 431, ../scss/_overrides.scss */
 .funds-receiver:hover {
   background-color: #3EB449;
 }
 
-/* line 416, ../scss/_overrides.scss */
+/* line 436, ../scss/_overrides.scss */
 #notifications-icon
 img {
   margin: 5px;
 }
 
-/* line 421, ../scss/_overrides.scss */
+/* line 441, ../scss/_overrides.scss */
 #avatar {
   padding-left: 10px;
 }
-/* line 424, ../scss/_overrides.scss */
+/* line 444, ../scss/_overrides.scss */
 #avatar img {
   margin-left: 0px;
   margin-top: -3px;
 }
 
-/* line 430, ../scss/_overrides.scss */
+/* line 450, ../scss/_overrides.scss */
 .user-dash-info {
   padding-top: 50px;
   padding-bottom: 40px;
 }
-/* line 433, ../scss/_overrides.scss */
+/* line 453, ../scss/_overrides.scss */
 .user-dash-info p {
   line-height: 1.3;
   color: gray;
 }
-/* line 438, ../scss/_overrides.scss */
+/* line 458, ../scss/_overrides.scss */
 .user-dash-info h3 {
   color: gray;
   padding-top: 25px;
 }
-/* line 442, ../scss/_overrides.scss */
+/* line 462, ../scss/_overrides.scss */
 .user-dash-info h5 {
   margin-top: 10px;
-  color: #3EB449;
+  color: #40A9DF;
   margin-bottom: 0px;
 }
-/* line 447, ../scss/_overrides.scss */
+/* line 467, ../scss/_overrides.scss */
 .user-dash-info #user-location {
   margin-top: 5px;
-  color: #3EB449;
+  color: #40A9DF;
 }
 
-/* line 454, ../scss/_overrides.scss */
+/* line 474, ../scss/_overrides.scss */
+.returning h3 {
+  color: #40A9DF;
+}
+
+/* line 480, ../scss/_overrides.scss */
 .dashboard p {
   margin-bottom: 10px;
+}
+
+/* line 485, ../scss/_overrides.scss */
+.active-campaigns {
+  border-bottom: 1px solid #D8D8D8;
+  margin-bottom: 20px;
+}
+/* line 486, ../scss/_overrides.scss */
+.active-campaigns h4 {
+  line-height: 1;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+/* line 492, ../scss/_overrides.scss */
+.active-campaigns p {
+  font-size: 14px;
+  line-height: 1;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* line 499, ../scss/_overrides.scss */
+.active-campaigns h5 {
+  font-size: 18px;
+}
+/* line 503, ../scss/_overrides.scss */
+.active-campaigns h3 {
+  font-size: 24px;
+  margin: 0px;
+}
+/* line 507, ../scss/_overrides.scss */
+.active-campaigns h6 {
+  font-size: 14px;
+  margin: 0px;
+}
+/* line 512, ../scss/_overrides.scss */
+.active-campaigns .progress {
+  margin: 0px;
+}
+
+/* line 519, ../scss/_overrides.scss */
+.donation-card {
+  border: 1px solid black;
+  padding: 10px 8px 8px 8px;
+}
+/* line 522, ../scss/_overrides.scss */
+.donation-card h5 {
+  line-height: 1.1;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 528, ../scss/_overrides.scss */
+.donation-card p {
+  line-height: 1;
+}
+
+/* line 534, ../scss/_overrides.scss */
+.hollow-green {
+  border: 1px solid #3EB449;
+  background-color: white;
+  color: #3EB449;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+/* line 39, ../scss/_overrides.scss */
+.hollow-green:hover {
+  background-color: #3EB449;
+  color: white;
+}
+
+/* line 538, ../scss/_overrides.scss */
+.hollow-blue {
+  border: 1px solid #40A9DF;
+  background-color: white;
+  color: #40A9DF;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+/* line 39, ../scss/_overrides.scss */
+.hollow-blue:hover {
+  background-color: #40A9DF;
+  color: white;
 }

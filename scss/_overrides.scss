@@ -25,6 +25,23 @@
   font-weight: 400;
 }
 
+@mixin hollow-buttons ($color) {
+    border: 1px solid $color;
+    background-color: white;
+    @extend %main-font-light;
+    color: $color;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    &:hover {
+        background-color: $color;
+        color: white;
+    }
+}
+
 @mixin feed-item-styles($color) {
   background: $color;
   margin-bottom: 20px;
@@ -201,6 +218,8 @@ div.reason {
 }
 
 .footer {
+    background-color: #4A4A4A;
+    color: whitesmoke;
   .row {
     margin-top: 20px;
     ul{
@@ -209,6 +228,7 @@ div.reason {
       }
     }
     }
+
   }
 
   //Campaign Page
@@ -441,12 +461,18 @@ textarea.required {
     }
     h5{
         margin-top: 10px;
-        color: $brand-green;
+        color: $brand-blue;
         margin-bottom: 0px;
     }
     #user-location{
         margin-top: 5px;
-        color: $brand-green;
+        color: $brand-blue;
+    }
+}
+
+.returning {
+    h3 {
+        color: $brand-blue;
     }
 }
 
@@ -454,4 +480,61 @@ textarea.required {
     p {
         margin-bottom: 10px;
     }
+}
+
+.active-campaigns {
+    h4 {
+        line-height: 1;
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+    p{
+        @extend %main-font-light;
+        font-size: 14px;
+        line-height: 1;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    h5 {
+        @extend %main-font;
+        font-size: 18px;
+    }
+    h3{
+        font-size: 24px;
+        margin: 0px;
+    }
+    h6 {
+        @extend %main-font-semi;
+        font-size: 14px;
+        margin: 0px;
+    }
+    .progress {
+        margin: 0px;
+    }
+    border-bottom: 1px solid $gray;
+    margin-bottom: 20px;
+}
+
+.donation-card {
+    border: 1px solid black;
+    padding: 10px 8px 8px 8px;
+    h5{
+        line-height: 1.1;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    p {
+        @extend %main-font-light;
+        line-height: 1;
+    }
+}
+
+.hollow-green {
+    @include hollow-buttons($brand-green);
+}
+
+.hollow-blue {
+    @include hollow-buttons($brand-blue);
 }
