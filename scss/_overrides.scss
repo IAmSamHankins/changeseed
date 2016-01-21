@@ -220,6 +220,7 @@ div.reason {
 .footer {
     background-color: #4A4A4A;
     color: whitesmoke;
+    padding-top: 10px;
   .row {
     margin-top: 20px;
     ul{
@@ -471,7 +472,7 @@ textarea.required {
 }
 
 .returning {
-    h3 {
+    h3, p{
         color: $brand-blue;
     }
 }
@@ -482,7 +483,7 @@ textarea.required {
     }
 }
 
-.active-campaigns {
+.active-campaigns, .pending-campaigns{
     h4 {
         line-height: 1;
         font-size: 18px;
@@ -512,10 +513,44 @@ textarea.required {
     .progress {
         margin: 0px;
     }
+    padding-bottom: 20px;
     border-bottom: 1px solid $gray;
     margin-bottom: 20px;
 }
 
+.completed-campaigns{
+    h4 {
+        line-height: 1;
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+    p{
+        @extend %main-font-light;
+        font-size: 18px;
+        line-height: 1;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    h5 {
+        @extend %main-font;
+        font-size: 18px;
+    }
+    h3{
+        font-size: 24px;
+        margin: 0px;
+    }
+    h6 {
+        @extend %main-font-semi;
+        font-size: 14px;
+        margin: 0px;
+    }
+    .progress {
+        margin: 0px;
+    }
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
 .donation-card {
     border: 1px solid black;
     padding: 10px 8px 8px 8px;
@@ -528,6 +563,12 @@ textarea.required {
     p {
         @extend %main-font-light;
         line-height: 1;
+        margin-bottom: 5px;
+    }
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: $brand-green;
     }
 }
 
