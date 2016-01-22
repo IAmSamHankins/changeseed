@@ -9889,91 +9889,113 @@ input.required {
   vertical-align: middle;
 }
 
-/* line 181, ../scss/_overrides.scss */
+/* line 180, ../scss/_overrides.scss */
+.browse-hero {
+  background: url("../img/browse-hero.png") center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 0px 0px;
+  padding-top: 200px;
+  height: 450px;
+  color: white;
+}
+/* line 190, ../scss/_overrides.scss */
+.browse-hero h1 {
+  color: white;
+  vertical-align: middle;
+}
+/* line 194, ../scss/_overrides.scss */
+.browse-hero p {
+  font-size: 20px;
+}
+
+/* line 201, ../scss/_overrides.scss */
 .landing-campaign h1, .landing-campaign h2, .landing-campaign h3, .landing-campaign h4, .landing-campaign h5 {
   margin: 0px;
   font-family: "Gibson";
 }
-/* line 185, ../scss/_overrides.scss */
+/* line 205, ../scss/_overrides.scss */
 .landing-campaign .org_name {
   font-weight: 200;
   font-size: 14pt;
   line-height: 1.2;
   margin-bottom: 5px;
 }
-/* line 191, ../scss/_overrides.scss */
+/* line 211, ../scss/_overrides.scss */
 .landing-campaign p {
   margin-bottom: 0px;
   font-family: "Gibson";
 }
-/* line 195, ../scss/_overrides.scss */
+/* line 215, ../scss/_overrides.scss */
 .landing-campaign img {
   margin-bottom: 10px;
   display: block;
   margin: 0 auto 0 auto;
 }
-/* line 200, ../scss/_overrides.scss */
+/* line 220, ../scss/_overrides.scss */
 .landing-campaign .camp-title {
   font-weight: 600;
   font-size: 14pt;
   line-height: 1.2;
   margin-bottom: 10px;
 }
-/* line 206, ../scss/_overrides.scss */
+/* line 226, ../scss/_overrides.scss */
 .landing-campaign .highlight-head {
   font-weight: 600;
 }
-/* line 209, ../scss/_overrides.scss */
+/* line 229, ../scss/_overrides.scss */
 .landing-campaign .highlight-unit {
   font-weight: 400;
 }
-/* line 212, ../scss/_overrides.scss */
+/* line 232, ../scss/_overrides.scss */
 .landing-campaign h5 {
   margin-top: 10px;
   font-weight: 200;
 }
-/* line 216, ../scss/_overrides.scss */
+/* line 236, ../scss/_overrides.scss */
 .landing-campaign .progress {
   margin-bottom: 5px;
 }
 
-/* line 221, ../scss/_overrides.scss */
+/* line 241, ../scss/_overrides.scss */
 .featured {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 226, ../scss/_overrides.scss */
+/* line 246, ../scss/_overrides.scss */
 div.reason {
   border: .5px solid white;
 }
 
-/* line 230, ../scss/_overrides.scss */
+/* line 250, ../scss/_overrides.scss */
 .benefits {
   margin-top: 20px;
   background-color: #40A9DF;
 }
-/* line 234, ../scss/_overrides.scss */
+/* line 254, ../scss/_overrides.scss */
 .benefits p {
   color: white;
 }
-/* line 237, ../scss/_overrides.scss */
+/* line 257, ../scss/_overrides.scss */
 .benefits h2 {
   color: white;
 }
-/* line 240, ../scss/_overrides.scss */
+/* line 260, ../scss/_overrides.scss */
 .benefits h4 {
   color: white;
   margin-bottom: 20px;
   line-height: 1.3;
 }
-/* line 245, ../scss/_overrides.scss */
+/* line 265, ../scss/_overrides.scss */
 .benefits img {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 251, ../scss/_overrides.scss */
+/* line 271, ../scss/_overrides.scss */
 .impact {
   padding-top: 40px;
   background: url("../img/impact_image.png") no-repeat center center;
@@ -9984,32 +10006,32 @@ div.reason {
   height: 450px;
   color: white;
 }
-/* line 260, ../scss/_overrides.scss */
+/* line 280, ../scss/_overrides.scss */
 .impact h2 {
   color: white;
 }
 
-/* line 265, ../scss/_overrides.scss */
+/* line 285, ../scss/_overrides.scss */
 #footer-logo {
   margin-top: 20px;
 }
 
-/* line 269, ../scss/_overrides.scss */
+/* line 289, ../scss/_overrides.scss */
 .footer {
   background-color: #4A4A4A;
   color: whitesmoke;
   padding-top: 10px;
 }
-/* line 273, ../scss/_overrides.scss */
+/* line 293, ../scss/_overrides.scss */
 .footer .row {
   margin-top: 20px;
 }
-/* line 276, ../scss/_overrides.scss */
+/* line 296, ../scss/_overrides.scss */
 .footer .row ul li {
   list-style-type: none;
 }
 
-/* line 286, ../scss/_overrides.scss */
+/* line 306, ../scss/_overrides.scss */
 .campaign-hero {
   background: url("../img/camp-hero.png") no-repeat center center;
   -webkit-background-size: cover;
@@ -10021,11 +10043,11 @@ div.reason {
   height: 500px;
   color: white;
 }
-/* line 296, ../scss/_overrides.scss */
+/* line 316, ../scss/_overrides.scss */
 .campaign-hero h3 {
   color: white;
 }
-/* line 299, ../scss/_overrides.scss */
+/* line 319, ../scss/_overrides.scss */
 .campaign-hero p {
   font-family: "Gibson";
   font-size: 14pt;
@@ -10033,70 +10055,70 @@ div.reason {
   line-height: 18pt;
 }
 
-/* line 309, ../scss/_overrides.scss */
+/* line 329, ../scss/_overrides.scss */
 .camp-info-bar {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #F7F7F7;
 }
-/* line 314, ../scss/_overrides.scss */
+/* line 334, ../scss/_overrides.scss */
 .camp-info-bar select {
   margin-top: 1px;
 }
-/* line 317, ../scss/_overrides.scss */
+/* line 337, ../scss/_overrides.scss */
 .camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5, .camp-info-bar h6 {
   margin: 0px;
   font-weight: 600;
   display: inline;
 }
-/* line 323, ../scss/_overrides.scss */
+/* line 343, ../scss/_overrides.scss */
 .camp-info-bar h6 {
   font-size: 12pt;
 }
-/* line 326, ../scss/_overrides.scss */
+/* line 346, ../scss/_overrides.scss */
 .camp-info-bar .goal {
   font-weight: 600;
 }
-/* line 329, ../scss/_overrides.scss */
+/* line 349, ../scss/_overrides.scss */
 .camp-info-bar .highlight-head {
   margin: 0;
 }
-/* line 336, ../scss/_overrides.scss */
+/* line 356, ../scss/_overrides.scss */
 .camp-info-bar .highlight-box {
   margin-top: 25px;
 }
-/* line 338, ../scss/_overrides.scss */
+/* line 358, ../scss/_overrides.scss */
 .camp-info-bar .highlight-box h2 {
   color: white;
 }
-/* line 344, ../scss/_overrides.scss */
+/* line 364, ../scss/_overrides.scss */
 .camp-info-bar .days-remaining p {
   font-size: 12pt;
   line-height: 12pt;
 }
-/* line 349, ../scss/_overrides.scss */
+/* line 369, ../scss/_overrides.scss */
 .camp-info-bar p {
   font-family: "Gibson";
 }
 
-/* line 354, ../scss/_overrides.scss */
+/* line 374, ../scss/_overrides.scss */
 div.selection-box {
   border-left: 1px solid #3EB449;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 360, ../scss/_overrides.scss */
+/* line 380, ../scss/_overrides.scss */
 .org-side-bar {
   background-color: #FDFFD7;
 }
 
-/* line 364, ../scss/_overrides.scss */
+/* line 384, ../scss/_overrides.scss */
 div.seed-donation-side {
   border: .5px solid black;
 }
 
-/* line 372, ../scss/_overrides.scss */
+/* line 392, ../scss/_overrides.scss */
 .feed-item-comment {
   background: #D8D8D8;
   margin-bottom: 20px;
@@ -10133,7 +10155,7 @@ div.seed-donation-side {
   margin: 0px 10px 0px 10px;
 }
 
-/* line 376, ../scss/_overrides.scss */
+/* line 396, ../scss/_overrides.scss */
 .item-donation {
   background: #87D37C;
   margin-bottom: 10px;
@@ -10171,7 +10193,7 @@ div.seed-donation-side {
   margin: 5px;
 }
 
-/* line 380, ../scss/_overrides.scss */
+/* line 400, ../scss/_overrides.scss */
 .feed-item-donation {
   background: #87D37C;
   margin-bottom: 20px;
@@ -10208,7 +10230,7 @@ div.seed-donation-side {
   margin: 0px 10px 0px 10px;
 }
 
-/* line 384, ../scss/_overrides.scss */
+/* line 404, ../scss/_overrides.scss */
 .feed-item-update {
   background: #FDFFD7;
   margin-bottom: 20px;
@@ -10245,39 +10267,39 @@ div.seed-donation-side {
   margin: 0px 10px 0px 10px;
 }
 
-/* line 388, ../scss/_overrides.scss */
+/* line 408, ../scss/_overrides.scss */
 .comment {
   margin-top: 10px;
   margin-bottom: 5px;
 }
 
-/* line 394, ../scss/_overrides.scss */
+/* line 414, ../scss/_overrides.scss */
 .create-campaign-progress {
   background-color: #D8D8D8;
   height: 55px;
 }
-/* line 397, ../scss/_overrides.scss */
+/* line 417, ../scss/_overrides.scss */
 .create-campaign-progress p {
   margin-top: 15px;
   margin-bottom: 12px;
 }
-/* line 402, ../scss/_overrides.scss */
+/* line 422, ../scss/_overrides.scss */
 .create-campaign-progress .step {
   background-color: #40A9DF;
 }
-/* line 405, ../scss/_overrides.scss */
+/* line 425, ../scss/_overrides.scss */
 .create-campaign-progress .not-done {
   background-color: #D8D8D8;
 }
 
-/* line 410, ../scss/_overrides.scss */
+/* line 430, ../scss/_overrides.scss */
 .button-white {
   background-color: #FFFFFF;
   color: #40A9DF;
   font-weight: 400;
 }
 
-/* line 416, ../scss/_overrides.scss */
+/* line 436, ../scss/_overrides.scss */
 .not-selected {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -10313,14 +10335,14 @@ div.seed-donation-side {
   color: #FFFFFF;
 }
 
-/* line 426, ../scss/_overrides.scss */
+/* line 446, ../scss/_overrides.scss */
 .campaign-form li {
   display: inline;
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 433, ../scss/_overrides.scss */
+/* line 453, ../scss/_overrides.scss */
 .upload-box {
   border: 2px dashed black;
   height: 150px;
@@ -10328,7 +10350,7 @@ div.seed-donation-side {
   margin-bottom: 20px;
 }
 
-/* line 440, ../scss/_overrides.scss */
+/* line 460, ../scss/_overrides.scss */
 .thumb {
   border: 2px dashed black;
   width: 25%;
@@ -10336,39 +10358,39 @@ div.seed-donation-side {
   margin: 10px;
 }
 
-/* line 448, ../scss/_overrides.scss */
+/* line 468, ../scss/_overrides.scss */
 ul.thumb-list li {
   display: inline;
 }
 
-/* line 453, ../scss/_overrides.scss */
+/* line 473, ../scss/_overrides.scss */
 .name {
   list-style-type: none;
 }
 
-/* line 457, ../scss/_overrides.scss */
+/* line 477, ../scss/_overrides.scss */
 .camp-create-nav {
   border-bottom: 1px solid black;
 }
 
-/* line 465, ../scss/_overrides.scss */
+/* line 485, ../scss/_overrides.scss */
 textarea.required {
   height: 150px;
   border-left: 5px solid #3EB449;
 }
 
-/* line 470, ../scss/_overrides.scss */
+/* line 490, ../scss/_overrides.scss */
 .need-calc {
   background-color: #FDFFD7;
   padding: 20px;
 }
 
-/* line 475, ../scss/_overrides.scss */
+/* line 495, ../scss/_overrides.scss */
 .create-camp-content {
   margin-top: 30px;
 }
 
-/* line 479, ../scss/_overrides.scss */
+/* line 499, ../scss/_overrides.scss */
 .funds-receiver {
   height: 150px;
   background-color: #a9e2af;
@@ -10376,166 +10398,166 @@ textarea.required {
   line-height: 150px;
   color: white;
 }
-/* line 485, ../scss/_overrides.scss */
+/* line 505, ../scss/_overrides.scss */
 .funds-receiver:hover {
   background-color: #3EB449;
 }
 
-/* line 490, ../scss/_overrides.scss */
+/* line 510, ../scss/_overrides.scss */
 #notifications-icon
 img {
   margin: 5px;
 }
 
-/* line 495, ../scss/_overrides.scss */
+/* line 515, ../scss/_overrides.scss */
 #avatar {
   padding-left: 10px;
 }
-/* line 498, ../scss/_overrides.scss */
+/* line 518, ../scss/_overrides.scss */
 #avatar img {
   margin-left: 0px;
   margin-top: -3px;
 }
 
-/* line 504, ../scss/_overrides.scss */
+/* line 524, ../scss/_overrides.scss */
 .user-dash-info {
   padding-top: 50px;
   padding-bottom: 40px;
 }
-/* line 507, ../scss/_overrides.scss */
+/* line 527, ../scss/_overrides.scss */
 .user-dash-info p {
   line-height: 1.3;
   color: gray;
 }
-/* line 512, ../scss/_overrides.scss */
+/* line 532, ../scss/_overrides.scss */
 .user-dash-info h3 {
   color: gray;
   padding-top: 25px;
 }
-/* line 516, ../scss/_overrides.scss */
+/* line 536, ../scss/_overrides.scss */
 .user-dash-info h5 {
   margin-top: 10px;
   color: #40A9DF;
   margin-bottom: 0px;
 }
-/* line 521, ../scss/_overrides.scss */
+/* line 541, ../scss/_overrides.scss */
 .user-dash-info #user-location {
   margin-top: 5px;
   color: #40A9DF;
 }
 
-/* line 528, ../scss/_overrides.scss */
+/* line 548, ../scss/_overrides.scss */
 .returning h3, .returning p {
   color: #40A9DF;
 }
 
-/* line 534, ../scss/_overrides.scss */
+/* line 554, ../scss/_overrides.scss */
 .dashboard p {
   margin-bottom: 10px;
 }
 
-/* line 539, ../scss/_overrides.scss */
+/* line 559, ../scss/_overrides.scss */
 .active-campaigns, .pending-campaigns {
   padding-bottom: 20px;
   border-bottom: 1px solid #D8D8D8;
   margin-bottom: 20px;
 }
-/* line 540, ../scss/_overrides.scss */
+/* line 560, ../scss/_overrides.scss */
 .active-campaigns h4, .pending-campaigns h4 {
   line-height: 1;
   font-size: 18px;
   margin-top: 0px;
   margin-bottom: 8px;
 }
-/* line 546, ../scss/_overrides.scss */
+/* line 566, ../scss/_overrides.scss */
 .active-campaigns p, .pending-campaigns p {
   font-size: 14px;
   line-height: 1;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-/* line 553, ../scss/_overrides.scss */
+/* line 573, ../scss/_overrides.scss */
 .active-campaigns h5, .pending-campaigns h5 {
   font-size: 18px;
 }
-/* line 557, ../scss/_overrides.scss */
+/* line 577, ../scss/_overrides.scss */
 .active-campaigns h3, .pending-campaigns h3 {
   font-size: 24px;
   margin: 0px;
 }
-/* line 561, ../scss/_overrides.scss */
+/* line 581, ../scss/_overrides.scss */
 .active-campaigns h6, .pending-campaigns h6 {
   font-size: 14px;
   margin: 0px;
 }
-/* line 566, ../scss/_overrides.scss */
+/* line 586, ../scss/_overrides.scss */
 .active-campaigns .progress, .pending-campaigns .progress {
   margin: 0px;
 }
 
-/* line 574, ../scss/_overrides.scss */
+/* line 594, ../scss/_overrides.scss */
 .completed-campaigns {
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-/* line 575, ../scss/_overrides.scss */
+/* line 595, ../scss/_overrides.scss */
 .completed-campaigns h4 {
   line-height: 1;
   font-size: 18px;
   margin-top: 0px;
   margin-bottom: 8px;
 }
-/* line 581, ../scss/_overrides.scss */
+/* line 601, ../scss/_overrides.scss */
 .completed-campaigns p {
   font-size: 18px;
   line-height: 1;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-/* line 588, ../scss/_overrides.scss */
+/* line 608, ../scss/_overrides.scss */
 .completed-campaigns h5 {
   font-size: 18px;
 }
-/* line 592, ../scss/_overrides.scss */
+/* line 612, ../scss/_overrides.scss */
 .completed-campaigns h3 {
   font-size: 24px;
   margin: 0px;
 }
-/* line 596, ../scss/_overrides.scss */
+/* line 616, ../scss/_overrides.scss */
 .completed-campaigns h6 {
   font-size: 14px;
   margin: 0px;
 }
-/* line 601, ../scss/_overrides.scss */
+/* line 621, ../scss/_overrides.scss */
 .completed-campaigns .progress {
   margin: 0px;
 }
 
-/* line 607, ../scss/_overrides.scss */
+/* line 627, ../scss/_overrides.scss */
 .donation-card {
   border: 1px solid black;
   padding: 10px 8px 8px 8px;
 }
-/* line 610, ../scss/_overrides.scss */
+/* line 630, ../scss/_overrides.scss */
 .donation-card h5 {
   line-height: 1.1;
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 616, ../scss/_overrides.scss */
+/* line 636, ../scss/_overrides.scss */
 .donation-card p {
   line-height: 1;
   margin-bottom: 5px;
 }
-/* line 621, ../scss/_overrides.scss */
+/* line 641, ../scss/_overrides.scss */
 .donation-card h3 {
   margin-top: 0px;
   margin-bottom: 0px;
   color: #3EB449;
 }
 
-/* line 628, ../scss/_overrides.scss */
+/* line 648, ../scss/_overrides.scss */
 .hollow-green {
   border: 1px solid #3EB449;
   background-color: white;
@@ -10553,7 +10575,7 @@ img {
   color: white;
 }
 
-/* line 632, ../scss/_overrides.scss */
+/* line 652, ../scss/_overrides.scss */
 .hollow-blue {
   border: 1px solid #40A9DF;
   background-color: white;
@@ -10571,7 +10593,7 @@ img {
   color: white;
 }
 
-/* line 636, ../scss/_overrides.scss */
+/* line 656, ../scss/_overrides.scss */
 .hollow-black {
   border: 1px solid black;
   background-color: white;
@@ -10589,46 +10611,46 @@ img {
   color: white;
 }
 
-/* line 640, ../scss/_overrides.scss */
+/* line 660, ../scss/_overrides.scss */
 .manage-nav {
   height: 60px;
   background-color: #3EB449;
 }
-/* line 643, ../scss/_overrides.scss */
+/* line 663, ../scss/_overrides.scss */
 .manage-nav h6 {
   margin-top: 20px;
   color: white;
 }
-/* line 649, ../scss/_overrides.scss */
+/* line 669, ../scss/_overrides.scss */
 .manage-nav .nav-head-active .columns {
   background-color: white;
   height: 60px;
 }
-/* line 653, ../scss/_overrides.scss */
+/* line 673, ../scss/_overrides.scss */
 .manage-nav .nav-head-active h6 {
   color: #3EB449;
 }
 
-/* line 659, ../scss/_overrides.scss */
+/* line 679, ../scss/_overrides.scss */
 .manage-header {
   background-color: white;
 }
-/* line 661, ../scss/_overrides.scss */
+/* line 681, ../scss/_overrides.scss */
 .manage-header h4 {
   margin-top: 10px;
   color: #40A9DF;
 }
-/* line 665, ../scss/_overrides.scss */
+/* line 685, ../scss/_overrides.scss */
 .manage-header .back-button {
   width: 30%;
 }
-/* line 668, ../scss/_overrides.scss */
+/* line 688, ../scss/_overrides.scss */
 .manage-header .manage-buttons {
   width: 40%;
   display: inline-block;
 }
 
-/* line 674, ../scss/_overrides.scss */
+/* line 694, ../scss/_overrides.scss */
 .manage-hero {
   background: url("../img/manage-hero.png") center center no-repeat;
   -webkit-background-size: cover;
@@ -10639,26 +10661,26 @@ img {
   height: 275px;
   color: white;
 }
-/* line 683, ../scss/_overrides.scss */
+/* line 703, ../scss/_overrides.scss */
 .manage-hero h3 {
   color: white;
   margin-top: 100px;
 }
-/* line 687, ../scss/_overrides.scss */
+/* line 707, ../scss/_overrides.scss */
 .manage-hero h5 {
   color: white;
 }
-/* line 691, ../scss/_overrides.scss */
+/* line 711, ../scss/_overrides.scss */
 .manage-hero p {
   color: white;
   font-size: 18px;
 }
-/* line 696, ../scss/_overrides.scss */
+/* line 716, ../scss/_overrides.scss */
 .manage-hero .button-block {
   margin-top: 100px;
 }
 
-/* line 701, ../scss/_overrides.scss */
+/* line 721, ../scss/_overrides.scss */
 .custom-blue {
   background-color: #40A9DF;
   color: white;
@@ -10676,13 +10698,13 @@ img {
   background-color: #2291ca;
   color: white;
 }
-/* line 705, ../scss/_overrides.scss */
+/* line 725, ../scss/_overrides.scss */
 .custom-blue.full {
   width: 100%;
   margin: 0px;
 }
 
-/* line 711, ../scss/_overrides.scss */
+/* line 731, ../scss/_overrides.scss */
 .custom-white-blue {
   background-color: white;
   color: #40A9DF;
@@ -10701,7 +10723,7 @@ img {
   color: #40A9DF;
 }
 
-/* line 717, ../scss/_overrides.scss */
+/* line 737, ../scss/_overrides.scss */
 .custom-white-green {
   background-color: white;
   color: #3EB449;
@@ -10720,13 +10742,18 @@ img {
   color: #3EB449;
 }
 
-/* line 723, ../scss/_overrides.scss */
+/* line 743, ../scss/_overrides.scss */
 .tabs-content {
   background-color: white;
 }
 
-/* line 728, ../scss/_overrides.scss */
+/* line 748, ../scss/_overrides.scss */
 .manage-donations .hollow-blue {
   margin-bottom: 3px;
   margin-top: 10px;
+}
+
+/* line 757, ../scss/_overrides.scss */
+.results {
+  margin-bottom: 30px;
 }

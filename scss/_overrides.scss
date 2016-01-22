@@ -177,6 +177,26 @@ input.required{
     }
 }
 
+.browse-hero{
+    background: url("../img/browse-hero.png") center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0px 0px;
+    padding-top: 200px;
+    height: 450px;
+    color: white;
+    h1 {
+      color: white;
+      vertical-align: middle;
+    }
+    p {
+        font-size: 20px;
+    }
+    
+}
+
 .landing-campaign{
   h1, h2, h3, h4, h5 {
     margin: 0px;
@@ -732,4 +752,8 @@ textarea.required {
     .row {
 //        margin-top:10px;
     }
+}
+
+.results {
+    margin-bottom: 30px;
 }
