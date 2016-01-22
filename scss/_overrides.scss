@@ -757,3 +757,17 @@ textarea.required {
 .results {
     margin-bottom: 30px;
 }
+
+input{
+   text-align:center;
+    &.browse-search{
+        border:2px solid $brand-green;
+        height: 50px;
+        width: 60%;
+        margin: 0px auto 0px auto;
+        font-size: 24px;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.4);
+        color: $brand-green;
+    }
+}
