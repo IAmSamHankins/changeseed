@@ -42,6 +42,22 @@
     }
 }
 
+@mixin custom-buttons ($color-main, $color-sec){
+    background-color: $color-main;
+    @extend %main-font-light;
+    color: $color-sec;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    &:hover {
+        background-color: darken($color-main, 10);
+        color: $color-sec;
+    }
+}
+
 @mixin feed-item-styles($color) {
   background: $color;
   margin-bottom: 20px;
@@ -73,11 +89,44 @@
   }
 }
 
+@mixin donation-item-styles($color) {
+  background: $color;
+  margin-bottom: 10px;
+    margin-top: 10px;
+  img {
+    margin: 10px;
+  }
+  h4 {
+    margin-top: 20px;
+  }
+  h5 {
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+
+  h6{
+    margin-top: 10px;
+  }
+  .days {
+    @extend %main-font-light;
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+  a {
+    font-family: $main-font;
+    margin-right: 10px;
+  }
+    P{
+        margin: 5px;
+    }
+}
+
 // Landing Page
 
 .highlight-box {
-//  height: 70px;
-  background-color: $light-green;
+    height: 106px;
+    background-image: linear-gradient(-50deg, #37B048 0%, #59CF65 99%);
+//  background-color: $light-green;
   font-size: 14pt;
 }
 
@@ -322,6 +371,10 @@ div.seed-donation-side {
 
 .feed-item-comment {
   @include feed-item-styles($gray);
+}
+
+.item-donation {
+    @include donation-item-styles($light-green);
 }
 
 .feed-item-donation {
@@ -578,4 +631,105 @@ textarea.required {
 
 .hollow-blue {
     @include hollow-buttons($brand-blue);
+}
+
+.hollow-black {
+    @include hollow-buttons(black);
+}
+
+.manage-nav{
+    height: 60px;
+    background-color: $brand-green;
+    h6{
+        margin-top: 20px;
+        @extend %main-font;
+        color: white;
+    }
+    .nav-head-active {
+        .columns{
+            background-color: white;
+            height: 60px;
+        }
+        h6{
+            color: $brand-green;
+        }
+    }
+}
+
+.manage-header {
+    background-color: white;
+    h4{
+        margin-top: 10px;
+        color: $brand-blue;
+    }
+    .back-button{
+        width: 30%;
+    }
+    .manage-buttons{
+        width: 40%;
+        display: inline-block;
+    }
+}
+
+.manage-hero{
+    background: url("../img/manage-hero.png") center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0px 0px;
+    height: 275px;
+    color: white;
+    h3{
+        color: white;
+        margin-top: 100px;
+    }
+    h5{
+        @extend %main-font;
+        color: white;
+    }
+    p {
+        @extend %main-font-light;
+        color: white;
+        font-size: 18px;
+    }
+    .button-block{
+        margin-top: 100px;
+    }
+}
+
+.custom-blue {
+    @include custom-buttons($brand-blue, white);
+    width: 45%;
+    display: inline-block;
+    &.full {
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+.custom-white-blue {
+    @include custom-buttons(white, $brand-blue);
+    width: 45%;
+    display: inline-block;
+}
+
+.custom-white-green {
+    @include custom-buttons(white, $brand-green);
+    width: 40%;
+    display: inline-block;
+}
+
+.tabs-content{
+    background-color: white;
+}
+
+.manage-donations {
+    .hollow-blue{
+        margin-bottom: 3px;
+        margin-top: 10px;
+    }
+    .row {
+//        margin-top:10px;
+    }
 }
