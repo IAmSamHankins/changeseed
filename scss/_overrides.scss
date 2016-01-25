@@ -280,6 +280,16 @@ div.reason {
     h2 {
       color: white;
     }
+    @media screen and (max-width: 500px){
+          background: url("../img/browse-hero.png") no-repeat center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            height: 450px;
+            color: white;  
+            padding-top: 150px;
+    }
 }
 
 #footer-logo {
@@ -295,6 +305,10 @@ div.reason {
     ul{
       li{
         list-style-type: none;
+              @media screen and (max-width: 500px){
+                display: inline;
+                  margin-right: 5px;
+    }
       }
     }
     }
@@ -769,5 +783,25 @@ input{
         font-weight: 600;
         background-color: rgba(255, 255, 255, 0.4);
         color: $brand-green;
+    }
+}
+
+.causes li{
+    height: 150px;
+    display: inline-block;
+    margin: 5px;
+    width: 150px;
+    padding-top: 70px;
+    background-color: $light-gray;
+    &:hover {
+        background-color: $light-green;
+        color: white;
+        transition: background-color .5s;
+    }
+}
+
+.categories {
+    h3 {
+        margin: 20px 0 20px 0;
     }
 }
