@@ -152,7 +152,7 @@ body {
   background: #fff;
   color: #222;
   cursor: auto;
-  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: canada-type-gibson, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -1771,7 +1771,7 @@ select {
   background: #EFEFEF;
   color: #222222;
   display: block;
-  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: canada-type-gibson, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
   padding: 1rem;
 }
@@ -2482,7 +2482,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: canada-type-gibson, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 300;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -5218,7 +5218,7 @@ kbd {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   display: inline-block;
-  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: canada-type-gibson, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 400;
   line-height: 1;
   margin-bottom: auto;
@@ -5782,7 +5782,7 @@ ul.pagination li {
 .pricing-table .title {
   background-color: #333333;
   color: #EEEEEE;
-  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: canada-type-gibson, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   padding: 0.9375rem 1.25rem;
@@ -5792,7 +5792,7 @@ ul.pagination li {
 .pricing-table .price {
   background-color: #F6F6F6;
   color: #333333;
-  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: canada-type-gibson, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 2rem;
   font-weight: 400;
   padding: 0.9375rem 1.25rem;
@@ -6188,7 +6188,7 @@ ul.pagination li {
 /* line 118, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav {
   display: block;
-  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: canada-type-gibson, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -6219,7 +6219,7 @@ ul.pagination li {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child:not(.button) {
   color: #73cf7c;
-  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: canada-type-gibson, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 400;
 }
 /* line 97, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
@@ -6405,7 +6405,7 @@ ul.pagination li {
 .sub-nav li {
   color: #999999;
   float: left;
-  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: canada-type-gibson, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   margin-left: 1rem;
@@ -6688,7 +6688,7 @@ table tr td {
   display: block;
   background-color: #40A9DF;
   color: white;
-  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: canada-type-gibson, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
   padding: 1rem 2rem;
 }
@@ -7143,7 +7143,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   color: #3EB449;
   display: block;
-  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: canada-type-gibson, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: 400;
   padding-left: 1.04167rem;
@@ -8016,7 +8016,7 @@ p aside {
 /* line 255, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: canada-type-gibson, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   line-height: 1.4;
@@ -10378,7 +10378,7 @@ div.seed-donation-side {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Gibson", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: canada-type-gibson, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 300;
   line-height: normal;
   margin: 0 0 1.25rem;
