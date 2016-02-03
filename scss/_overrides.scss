@@ -188,18 +188,30 @@ input.required{
 }
 
 .browse-hero{
-    background: url("../img/browse-hero.png") center center no-repeat;
+    
+    background: url("../img/small-peace.png") right top no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: 0px 0px;
-    padding-top: 200px;
+    height: 400px;
+    padding-top:100px;
+    
+    @media screen and (min-width:768px){
+    background: url("../img/browse-hero.png") right top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0px 0px;
+    padding-top: 175px;
     height: 450px;
+    }
     color: white;
-    h1 {
+    h2 {
       color: white;
-      vertical-align: middle;
+//      vertical-align: middle;
     }
     p {
         font-size: 20px;
@@ -223,6 +235,7 @@ input.required{
   font-family: $main-font;
   }
   img {
+    width: 100%;
     margin-bottom: 10px;
     display: block;
     margin: 0 auto 0 auto;
@@ -269,15 +282,6 @@ input.required{
             text-align: center;
         }
     }
-}
-
-.featured-right {
-  position: relative;
-  a {
-    position: absolute;
-    top: 25px;
-    right: 0;
-  }
 }
 
 div.reason {
@@ -572,7 +576,9 @@ textarea.required {
   }
 }
 
+
 .user-dash-info {
+    background-color: azure;
     padding-top: 50px;
     padding-bottom: 40px;
     p {
@@ -593,13 +599,14 @@ textarea.required {
         margin-top: 5px;
         color: $brand-blue;
     }
-    @media screen and (max-width: 400px)
+    @media screen and (max-width: 780px)
     {
         display: none;
     }
 }
 
 .user-dash-info-mobile {
+    background-color: azure;
     padding-top: 50px;
     padding-bottom: 40px;
     p {
@@ -620,7 +627,37 @@ textarea.required {
         margin-top: 5px;
         color: $brand-blue;
     }
-    @media screen and (min-width: 400px)
+    @media screen and (min-width: 780px)
+    {
+        display: none;
+    }
+    
+}
+
+.user-dash-info-mobile-blank {
+    background-color: azure;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    p {
+        @extend %main-font-light;
+        line-height: 1.3;
+        color: gray;
+        font-size: 10pt;
+    }
+    h3 {
+        margin-bottom: 2px;
+        color: gray;
+    }
+    h5{
+        margin-top: 10px;
+        color: $brand-blue;
+        margin-bottom: 0px;
+    }
+    #user-location{
+        margin-top: 5px;
+        color: $brand-blue;
+    }
+    @media screen and (min-width: 425px)
     {
         display: none;
     }
@@ -642,9 +679,9 @@ textarea.required {
 .active-campaigns, .pending-campaigns{
     h4 {
         line-height: 1;
-        font-size: 18px;
-        margin-top: 0px;
-        margin-bottom: 8px;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     p{
         @extend %main-font-light;
@@ -669,10 +706,19 @@ textarea.required {
     .progress {
         margin: 0px;
     }
+    img{
+        width: 100%;
+    }
+    .custom-blue {
+        margin-top: 10px;
+    }
     padding-bottom: 20px;
     border-bottom: 1px solid $gray;
-    margin-bottom: 20px;
+//    margin-bottom: 20px;
+    margin: 0px 20px 20px 20px;
 }
+
+
 
 .completed-campaigns{
     h4 {
@@ -707,9 +753,16 @@ textarea.required {
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
+
+.recent-donations {
+    margin: 0px 20px 20px 20px;
+}
+
 .donation-card {
-    border: 1px solid black;
+//    border: 1px solid black;
     padding: 10px 8px 8px 8px;
+//    margin: 0px 20px 20px 20px;
+
     h5{
         line-height: 1.1;
         font-size: 16px;
@@ -725,6 +778,9 @@ textarea.required {
         margin-top: 0px;
         margin-bottom: 0px;
         color: $brand-green;
+    }
+    img {
+        width: 100%;
     }
 }
 
@@ -844,17 +900,26 @@ textarea.required {
 input{
     &.browse-search{
         text-align:center;
-        border:2px solid $brand-green;
+        border:1px solid $brand-green;
         height: 50px;
-        width: 60%;
-        margin: 0px auto 0px auto;
-        font-size: 24px;
+        width: 80%;
+        color: $brand-blue;
         font-weight: 600;
+        font-size: 20px;
         background-color: rgba(255, 255, 255, 0.4);
         color: $brand-green;
+        display: inline-block;
+        @media screen and (min-width:762px){
+            font-size: 24px;
+            width: 60%;
+
+        }
     }
 }
 
+.cta {
+    margin-top: 10px;
+}
 .causes li{
     height: 150px;
     display: inline-block;
@@ -875,7 +940,7 @@ input{
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 425px){
     .tabs dd, .tabs .tab-title {
         width: 25%;
         .main-tabs &{
