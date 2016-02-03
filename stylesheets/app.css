@@ -9802,33 +9802,33 @@ th.hide-for-touch {
 }
 /* line 1, ../scss/_overrides.scss */
 .active-campaigns h6, .pending-campaigns h6, .completed-campaigns h6 {
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
   font-weight: 600;
 }
 
 /* line 6, ../scss/_overrides.scss */
 .camp-info-bar .highlight-head {
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
   font-weight: 600;
   color: white;
 }
 
 /* line 12, ../scss/_overrides.scss */
 .camp-info-bar .days-remaining, .feed-item-comment .days, .item-donation .days, .feed-item-donation .days, .feed-item-update .days, .user-dash-info p, .user-dash-info-mobile p, .user-dash-info-mobile-blank p, .active-campaigns p, .pending-campaigns p, .completed-campaigns p, .donation-card p, .hollow-green, .hollow-blue, .hollow-black, .manage-hero p, .custom-blue, .custom-white-blue, .custom-white-green {
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
   font-weight: 300;
 }
 
 /* line 17, ../scss/_overrides.scss */
 .camp-info-bar .highlight-unit, .create-campaign-progress p {
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
   font-weight: 300;
   color: white;
 }
 
 /* line 23, ../scss/_overrides.scss */
 .camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5, .camp-info-bar h6, .active-campaigns h5, .pending-campaigns h5, .completed-campaigns h5, .manage-nav h6, .manage-hero h5 {
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
   font-weight: 400;
 }
 
@@ -9857,13 +9857,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 150, ../scss/_overrides.scss */
 p {
-  font-family: "Abril Text", serif;
+  font-family: "abril-text", serif;
   font-size: 12pt;
 }
 
 /* line 156, ../scss/_overrides.scss */
 #sign-in-modal p, #sign-up-modal p {
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
 }
 
 /* line 161, ../scss/_overrides.scss */
@@ -9940,7 +9940,7 @@ input.required {
 /* line 223, ../scss/_overrides.scss */
 .landing-campaign h1, .landing-campaign h2, .landing-campaign h3, .landing-campaign h4, .landing-campaign h5 {
   margin: 0px;
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
 }
 /* line 227, ../scss/_overrides.scss */
 .landing-campaign .org_name {
@@ -9952,7 +9952,7 @@ input.required {
 /* line 233, ../scss/_overrides.scss */
 .landing-campaign p {
   margin-bottom: 0px;
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
 }
 /* line 237, ../scss/_overrides.scss */
 .landing-campaign img {
@@ -10120,7 +10120,7 @@ div.reason {
 }
 /* line 374, ../scss/_overrides.scss */
 .campaign-hero p {
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
   font-size: 14pt;
   font-weight: 400;
   line-height: 18pt;
@@ -10169,7 +10169,7 @@ div.reason {
 }
 /* line 424, ../scss/_overrides.scss */
 .camp-info-bar p {
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
 }
 
 /* line 429, ../scss/_overrides.scss */
@@ -10218,7 +10218,7 @@ div.seed-donation-side {
 }
 /* line 85, ../scss/_overrides.scss */
 .feed-item-comment a {
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
   margin-right: 10px;
 }
 /* line 89, ../scss/_overrides.scss */
@@ -10256,7 +10256,7 @@ div.seed-donation-side {
 }
 /* line 117, ../scss/_overrides.scss */
 .item-donation a {
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
   margin-right: 10px;
 }
 /* line 121, ../scss/_overrides.scss */
@@ -10293,7 +10293,7 @@ div.seed-donation-side {
 }
 /* line 85, ../scss/_overrides.scss */
 .feed-item-donation a {
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
   margin-right: 10px;
 }
 /* line 89, ../scss/_overrides.scss */
@@ -10330,7 +10330,7 @@ div.seed-donation-side {
 }
 /* line 85, ../scss/_overrides.scss */
 .feed-item-update a {
-  font-family: "Gibson";
+  font-family: "canada-type-gibson";
   margin-right: 10px;
 }
 /* line 89, ../scss/_overrides.scss */
