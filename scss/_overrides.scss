@@ -676,47 +676,7 @@ textarea.required {
     }
 }
 
-.active-campaigns, .pending-campaigns{
-    h4 {
-        line-height: 1;
-        font-size: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    p{
-        @extend %main-font-light;
-        font-size: 14px;
-        line-height: 1;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    h5 {
-        @extend %main-font;
-        font-size: 18px;
-    }
-    h3{
-        font-size: 24px;
-        margin: 0px;
-    }
-    h6 {
-        @extend %main-font-semi;
-        font-size: 14px;
-        margin: 0px;
-    }
-    .progress {
-        margin: 0px;
-    }
-    img{
-        width: 100%;
-    }
-    .custom-blue {
-        margin-top: 10px;
-    }
-    padding-bottom: 20px;
-    border-bottom: 1px solid $gray;
-//    margin-bottom: 20px;
-    margin: 0px 20px 20px 20px;
-}
+
 
 
 
@@ -754,8 +714,50 @@ textarea.required {
     margin-bottom: 20px;
 }
 
-.recent-donations {
-    margin: 0px 20px 20px 20px;
+.recent-donations, .active-campaigns, .pending-campaigns {
+    margin: 20px 20px 0 20px;
+}
+
+.active-campaigns {
+    padding-bottom: 20px;
+}
+
+.active-campaigns, .pending-campaigns {
+    border-bottom: 1px solid black;
+        h4 {
+        line-height: 1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    p{
+        @extend %main-font-light;
+        font-size: 14px;
+        line-height: 1;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    h5 {
+        @extend %main-font;
+        font-size: 18px;
+    }
+    h3{
+        font-size: 24px;
+        margin: 0px;
+    }
+    h6 {
+        @extend %main-font-semi;
+        font-size: 14px;
+        margin: 0px;
+    }
+    .progress {
+        margin: 0px;
+    }
+    img{
+        width: 100%;
+    }
+    .custom-blue {
+        margin-top: 10px;
+    }
 }
 
 .donation-card {

@@ -9801,7 +9801,7 @@ th.hide-for-touch {
   }
 }
 /* line 1, ../scss/_overrides.scss */
-.active-campaigns h6, .pending-campaigns h6, .completed-campaigns h6 {
+.completed-campaigns h6, .active-campaigns h6, .pending-campaigns h6 {
   font-family: "canada-type-gibson";
   font-weight: 600;
 }
@@ -9814,7 +9814,7 @@ th.hide-for-touch {
 }
 
 /* line 12, ../scss/_overrides.scss */
-.camp-info-bar .days-remaining, .feed-item-comment .days, .item-donation .days, .feed-item-donation .days, .feed-item-update .days, .user-dash-info p, .user-dash-info-mobile p, .user-dash-info-mobile-blank p, .active-campaigns p, .pending-campaigns p, .completed-campaigns p, .donation-card p, .hollow-green, .hollow-blue, .hollow-black, .manage-hero p, .custom-blue, .custom-white-blue, .custom-white-green {
+.camp-info-bar .days-remaining, .feed-item-comment .days, .item-donation .days, .feed-item-donation .days, .feed-item-update .days, .user-dash-info p, .user-dash-info-mobile p, .user-dash-info-mobile-blank p, .completed-campaigns p, .active-campaigns p, .pending-campaigns p, .donation-card p, .hollow-green, .hollow-blue, .hollow-black, .manage-hero p, .custom-blue, .custom-white-blue, .custom-white-green {
   font-family: "canada-type-gibson";
   font-weight: 300;
 }
@@ -9827,7 +9827,7 @@ th.hide-for-touch {
 }
 
 /* line 23, ../scss/_overrides.scss */
-.camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5, .camp-info-bar h6, .active-campaigns h5, .pending-campaigns h5, .completed-campaigns h5, .manage-nav h6, .manage-hero h5 {
+.camp-info-bar h2, .camp-info-bar h3, .camp-info-bar h4, .camp-info-bar h5, .camp-info-bar h6, .completed-campaigns h5, .active-campaigns h5, .pending-campaigns h5, .manage-nav h6, .manage-hero h5 {
   font-family: "canada-type-gibson";
   font-weight: 400;
 }
@@ -10603,124 +10603,126 @@ img {
   margin-bottom: 10px;
 }
 
-/* line 679, ../scss/_overrides.scss */
-.active-campaigns, .pending-campaigns {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #D8D8D8;
-  margin: 0px 20px 20px 20px;
-}
-/* line 680, ../scss/_overrides.scss */
-.active-campaigns h4, .pending-campaigns h4 {
-  line-height: 1;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-/* line 686, ../scss/_overrides.scss */
-.active-campaigns p, .pending-campaigns p {
-  font-size: 14px;
-  line-height: 1;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-/* line 693, ../scss/_overrides.scss */
-.active-campaigns h5, .pending-campaigns h5 {
-  font-size: 18px;
-}
-/* line 697, ../scss/_overrides.scss */
-.active-campaigns h3, .pending-campaigns h3 {
-  font-size: 24px;
-  margin: 0px;
-}
-/* line 701, ../scss/_overrides.scss */
-.active-campaigns h6, .pending-campaigns h6 {
-  font-size: 14px;
-  margin: 0px;
-}
-/* line 706, ../scss/_overrides.scss */
-.active-campaigns .progress, .pending-campaigns .progress {
-  margin: 0px;
-}
-/* line 709, ../scss/_overrides.scss */
-.active-campaigns img, .pending-campaigns img {
-  width: 100%;
-}
-/* line 712, ../scss/_overrides.scss */
-.active-campaigns .custom-blue, .pending-campaigns .custom-blue {
-  margin-top: 10px;
-}
-
-/* line 723, ../scss/_overrides.scss */
+/* line 683, ../scss/_overrides.scss */
 .completed-campaigns {
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-/* line 724, ../scss/_overrides.scss */
+/* line 684, ../scss/_overrides.scss */
 .completed-campaigns h4 {
   line-height: 1;
   font-size: 18px;
   margin-top: 0px;
   margin-bottom: 8px;
 }
-/* line 730, ../scss/_overrides.scss */
+/* line 690, ../scss/_overrides.scss */
 .completed-campaigns p {
   font-size: 18px;
   line-height: 1;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-/* line 737, ../scss/_overrides.scss */
+/* line 697, ../scss/_overrides.scss */
 .completed-campaigns h5 {
   font-size: 18px;
 }
-/* line 741, ../scss/_overrides.scss */
+/* line 701, ../scss/_overrides.scss */
 .completed-campaigns h3 {
   font-size: 24px;
   margin: 0px;
 }
-/* line 745, ../scss/_overrides.scss */
+/* line 705, ../scss/_overrides.scss */
 .completed-campaigns h6 {
   font-size: 14px;
   margin: 0px;
 }
-/* line 750, ../scss/_overrides.scss */
+/* line 710, ../scss/_overrides.scss */
 .completed-campaigns .progress {
   margin: 0px;
 }
 
-/* line 757, ../scss/_overrides.scss */
-.recent-donations {
-  margin: 0px 20px 20px 20px;
+/* line 717, ../scss/_overrides.scss */
+.recent-donations, .active-campaigns, .pending-campaigns {
+  margin: 20px 20px 0 20px;
 }
 
-/* line 761, ../scss/_overrides.scss */
+/* line 721, ../scss/_overrides.scss */
+.active-campaigns {
+  padding-bottom: 20px;
+}
+
+/* line 725, ../scss/_overrides.scss */
+.active-campaigns, .pending-campaigns {
+  border-bottom: 1px solid black;
+}
+/* line 727, ../scss/_overrides.scss */
+.active-campaigns h4, .pending-campaigns h4 {
+  line-height: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 732, ../scss/_overrides.scss */
+.active-campaigns p, .pending-campaigns p {
+  font-size: 14px;
+  line-height: 1;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* line 739, ../scss/_overrides.scss */
+.active-campaigns h5, .pending-campaigns h5 {
+  font-size: 18px;
+}
+/* line 743, ../scss/_overrides.scss */
+.active-campaigns h3, .pending-campaigns h3 {
+  font-size: 24px;
+  margin: 0px;
+}
+/* line 747, ../scss/_overrides.scss */
+.active-campaigns h6, .pending-campaigns h6 {
+  font-size: 14px;
+  margin: 0px;
+}
+/* line 752, ../scss/_overrides.scss */
+.active-campaigns .progress, .pending-campaigns .progress {
+  margin: 0px;
+}
+/* line 755, ../scss/_overrides.scss */
+.active-campaigns img, .pending-campaigns img {
+  width: 100%;
+}
+/* line 758, ../scss/_overrides.scss */
+.active-campaigns .custom-blue, .pending-campaigns .custom-blue {
+  margin-top: 10px;
+}
+
+/* line 763, ../scss/_overrides.scss */
 .donation-card {
   padding: 10px 8px 8px 8px;
 }
-/* line 766, ../scss/_overrides.scss */
+/* line 768, ../scss/_overrides.scss */
 .donation-card h5 {
   line-height: 1.1;
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 772, ../scss/_overrides.scss */
+/* line 774, ../scss/_overrides.scss */
 .donation-card p {
   line-height: 1;
   margin-bottom: 5px;
 }
-/* line 777, ../scss/_overrides.scss */
+/* line 779, ../scss/_overrides.scss */
 .donation-card h3 {
   margin-top: 0px;
   margin-bottom: 0px;
   color: #3EB449;
 }
-/* line 782, ../scss/_overrides.scss */
+/* line 784, ../scss/_overrides.scss */
 .donation-card img {
   width: 100%;
 }
 
-/* line 787, ../scss/_overrides.scss */
+/* line 789, ../scss/_overrides.scss */
 .hollow-green {
   border: 1px solid #3EB449;
   background-color: white;
@@ -10739,7 +10741,7 @@ img {
   color: white;
 }
 
-/* line 791, ../scss/_overrides.scss */
+/* line 793, ../scss/_overrides.scss */
 .hollow-blue {
   border: 1px solid #40A9DF;
   background-color: white;
@@ -10758,7 +10760,7 @@ img {
   color: white;
 }
 
-/* line 795, ../scss/_overrides.scss */
+/* line 797, ../scss/_overrides.scss */
 .hollow-black {
   border: 1px solid black;
   background-color: white;
@@ -10777,46 +10779,46 @@ img {
   color: white;
 }
 
-/* line 799, ../scss/_overrides.scss */
+/* line 801, ../scss/_overrides.scss */
 .manage-nav {
   height: 60px;
   background-color: #3EB449;
 }
-/* line 802, ../scss/_overrides.scss */
+/* line 804, ../scss/_overrides.scss */
 .manage-nav h6 {
   margin-top: 20px;
   color: white;
 }
-/* line 808, ../scss/_overrides.scss */
+/* line 810, ../scss/_overrides.scss */
 .manage-nav .nav-head-active .columns {
   background-color: white;
   height: 60px;
 }
-/* line 812, ../scss/_overrides.scss */
+/* line 814, ../scss/_overrides.scss */
 .manage-nav .nav-head-active h6 {
   color: #3EB449;
 }
 
-/* line 818, ../scss/_overrides.scss */
+/* line 820, ../scss/_overrides.scss */
 .manage-header {
   background-color: white;
 }
-/* line 820, ../scss/_overrides.scss */
+/* line 822, ../scss/_overrides.scss */
 .manage-header h4 {
   margin-top: 10px;
   color: #40A9DF;
 }
-/* line 824, ../scss/_overrides.scss */
+/* line 826, ../scss/_overrides.scss */
 .manage-header .back-button {
   width: 30%;
 }
-/* line 827, ../scss/_overrides.scss */
+/* line 829, ../scss/_overrides.scss */
 .manage-header .manage-buttons {
   width: 40%;
   display: inline-block;
 }
 
-/* line 833, ../scss/_overrides.scss */
+/* line 835, ../scss/_overrides.scss */
 .manage-hero {
   background: url("../img/manage-hero.png") center center no-repeat;
   -webkit-background-size: cover;
@@ -10827,26 +10829,26 @@ img {
   height: 275px;
   color: white;
 }
-/* line 842, ../scss/_overrides.scss */
+/* line 844, ../scss/_overrides.scss */
 .manage-hero h3 {
   color: white;
   margin-top: 100px;
 }
-/* line 846, ../scss/_overrides.scss */
+/* line 848, ../scss/_overrides.scss */
 .manage-hero h5 {
   color: white;
 }
-/* line 850, ../scss/_overrides.scss */
+/* line 852, ../scss/_overrides.scss */
 .manage-hero p {
   color: white;
   font-size: 18px;
 }
-/* line 855, ../scss/_overrides.scss */
+/* line 857, ../scss/_overrides.scss */
 .manage-hero .button-block {
   margin-top: 100px;
 }
 
-/* line 860, ../scss/_overrides.scss */
+/* line 862, ../scss/_overrides.scss */
 .custom-blue {
   background-color: #40A9DF;
   color: white;
@@ -10865,13 +10867,13 @@ img {
   color: white;
   transition: color .5s;
 }
-/* line 864, ../scss/_overrides.scss */
+/* line 866, ../scss/_overrides.scss */
 .custom-blue.full {
   width: 100%;
   margin: 0px;
 }
 
-/* line 870, ../scss/_overrides.scss */
+/* line 872, ../scss/_overrides.scss */
 .custom-white-blue {
   background-color: white;
   color: #40A9DF;
@@ -10891,7 +10893,7 @@ img {
   transition: color .5s;
 }
 
-/* line 876, ../scss/_overrides.scss */
+/* line 878, ../scss/_overrides.scss */
 .custom-white-green {
   background-color: white;
   color: #3EB449;
@@ -10911,23 +10913,23 @@ img {
   transition: color .5s;
 }
 
-/* line 882, ../scss/_overrides.scss */
+/* line 884, ../scss/_overrides.scss */
 .tabs-content {
   background-color: white;
 }
 
-/* line 887, ../scss/_overrides.scss */
+/* line 889, ../scss/_overrides.scss */
 .manage-donations .hollow-blue {
   margin-bottom: 3px;
   margin-top: 10px;
 }
 
-/* line 896, ../scss/_overrides.scss */
+/* line 898, ../scss/_overrides.scss */
 .results {
   margin-bottom: 30px;
 }
 
-/* line 901, ../scss/_overrides.scss */
+/* line 903, ../scss/_overrides.scss */
 input.browse-search {
   text-align: center;
   border: 1px solid #3EB449;
@@ -10941,19 +10943,19 @@ input.browse-search {
   display: inline-block;
 }
 @media screen and (min-width: 762px) {
-  /* line 901, ../scss/_overrides.scss */
+  /* line 903, ../scss/_overrides.scss */
   input.browse-search {
     font-size: 24px;
     width: 60%;
   }
 }
 
-/* line 920, ../scss/_overrides.scss */
+/* line 922, ../scss/_overrides.scss */
 .cta {
   margin-top: 10px;
 }
 
-/* line 923, ../scss/_overrides.scss */
+/* line 925, ../scss/_overrides.scss */
 .causes li {
   height: 150px;
   display: inline-block;
@@ -10962,29 +10964,29 @@ input.browse-search {
   padding-top: 70px;
   background-color: #F7F7F7;
 }
-/* line 930, ../scss/_overrides.scss */
+/* line 932, ../scss/_overrides.scss */
 .causes li:hover {
   background-color: #87D37C;
   color: white;
   transition: background-color .5s;
 }
 
-/* line 938, ../scss/_overrides.scss */
+/* line 940, ../scss/_overrides.scss */
 .categories h3 {
   margin: 20px 0 20px 0;
 }
 
 @media screen and (max-width: 425px) {
-  /* line 944, ../scss/_overrides.scss */
+  /* line 946, ../scss/_overrides.scss */
   .tabs dd, .tabs .tab-title {
     width: 25%;
   }
-  /* line 946, ../scss/_overrides.scss */
+  /* line 948, ../scss/_overrides.scss */
   .main-tabs .tabs dd, .main-tabs .tabs .tab-title {
     width: 33%;
   }
 
-  /* line 951, ../scss/_overrides.scss */
+  /* line 953, ../scss/_overrides.scss */
   .tabs dd > a, .tabs .tab-title > a {
     font-size: .75rem;
     padding: 10px 1px;
